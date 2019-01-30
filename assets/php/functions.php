@@ -1,5 +1,5 @@
 <?php
-//Fonctions d'affichage d'avertissement
+//Fonctions d'affichage d'avertissements
 session_start();
 
 // Mettre en place un avertissement flash
@@ -10,7 +10,7 @@ function setFlash($avertissement, $type) {
 	$_SESSION['Flash']['type'] = $type;
 }
 
-// Afficher un avertissement flash
+//Afficher un avertissement flash
 function getFlash() {
 	if(isset($_SESSION['Flash'])) {
 		//avertissement

@@ -1,15 +1,15 @@
 <?php
-// Récupération des infos du formulaire, créé par Nathanaël Houn 
+//Récupération des infos du formulaire, créé par Nathanaël Houn 
 require 'functions.php';
 
-// Récupération des variables
+//Récupération des variables
 $name = htmlentities($_POST['name']);
 $email = htmlentities($_POST['email']);
 $subject = htmlentities($_POST['subject']);
 $message = htmlentities($_POST['message']);
 
 
-// Forme de l'email à envoyer 
+//Forme de l'email à envoyer 
 $headers = 'MIME-Version: 1.0'."\n";
 $headers .= 'Content-type: text/html; charset=utf-8'."\n";
 $headers .= 'From : '.$email;
@@ -40,5 +40,4 @@ if(mail('contact@nathanaelhoun.fr', 'Nouvel email depuis nathanaelhoun.fr : '. $
 
 //Redirection vers la page
 header('Location:' . '../../' . '#footer');
-
 ?>

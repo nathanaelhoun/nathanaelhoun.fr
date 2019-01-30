@@ -17,11 +17,11 @@ require 'assets/php/functions.php';
 
 <html>
 	<head>
-		<title>Nathanaël Houn - Étudiant en Informatique</title>
-		<link rel="alternate" hreflang="en" href="https://www.nathanaelhoun.fr/en"/>
-		<link rel="alternate" hreflang="x-default" href="https://www.nathanaelhoun.fr/en"/>
+		<title>Nathanaël Houn - Student in computer science</title>
+		<link rel="alternate" hreflang="fr" href="https://www.nathanaelhoun.fr"/>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="robots" content="noindex">
 		<meta name="google-site-verification" content="poAxTBpoQFIHwIVDO9qTaDHRF-_bTdfn3vGup3KPf7g" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
@@ -35,7 +35,7 @@ require 'assets/php/functions.php';
 					<header id="header" class="alt">
 						<h1><a href="index.html">Nathanaël Houn</a></h1>
 						<nav>
-							<a href="en"></li>EN</a>
+							<a href="index"></li>FR</a>
 						</nav>
 					</header>
 
@@ -44,8 +44,8 @@ require 'assets/php/functions.php';
 					<section id="banner">
 						<div class="inner">
 							
-							<h2>Bienvenue chez Nathanaël Houn</h2>
-							<p>Étudiant et passionné d'informatique</a></p>
+							<h2>Welcome to Nathanaël Houn</h2>
+							<p>Student and computer science enthousiast</a></p>
 						</div>
 					</section>
 
@@ -57,9 +57,9 @@ require 'assets/php/functions.php';
 								<div class="inner">
 									<a href="" class="image"><img src="images/whoami.jpg" alt="" /></a>
 									<div class="content">
-										<h2 class="major">Qui suis-je ?</h2>
-										<p>Intéressé par l'informatique depuis tout petit, j'en ai fait une véritable passion depuis mes 15 ans. J'ai fait beaucoup d'expériences hardware avec des cartes-mères et autres composants informatiques, causant parfois quelques dégâts mais apprenant de mes erreurs. J'ai aussi découvert, via Internet, la programmation et l'HTML, dans lesquels je passe plus de temps depuis 2018.</p>
-										<a href="#footer" class="special">Me contacter</a>
+										<h2 class="major">Who am I ?</h2>
+										<p>Interested by computer since my first days, it turns into a true passion since I'm 15 years old. I love trying some experiences with motherboards, GPUs and others components, causing sometimes some damages but always learning from my mistakes. I also discovered programing and HTML with the Internet, and I spend more time learning this things since 2018.</p>
+										<a href="#footer" class="special">Get in touch</a>
 									</div>
 								</div>
 							</section>
@@ -69,9 +69,9 @@ require 'assets/php/functions.php';
 								<div class="inner">
 									<a href="#" class="image"><img src="images/cmi.jpg" alt="" /></a>
 									<div class="content">
-										<h2 class="major">Mon parcours</h2>
-										<p>Après l'obtention de mon baccalauréat scientifique avec mention, j'ai décidé de m'orienter dans l'informatique. J'ai choisi le Cursus Master en Ingénieurie Informatique de l'Université de Franche-Comté, où j'étudie actuellement en première année de licence.</p>
-										<a href="http://reseau-figure.fr/quest-ce-que-le-cmi/" class="special">En savoir plus sur le CMI</a>
+										<h2 class="major">My curriculum</h2>
+										<p>After graduated my <i>baccalauréat</i> (French High School Diploma) with honours, I decided to study in Computer Science. I chose the <i>Cursus Master en Ingénieurie</i>, a french university curriculum at the <i>Franche-Comté</i>'s University, where I am currently studying in the first year.</p> 
+										<a href="http://figure-network.org/" class="special">Learn more about <i>CMI</i></a>
 									</div>
 								</div>
 							</section>
@@ -92,13 +92,13 @@ require 'assets/php/functions.php';
 						<!-- Projects -->
 							<section id="projects" class="wrapper style1">
 								<div class="inner">
-									<h2 class="major">Mes projets</h2>
+									<h2 class="major">My projects</h2>
 									<section class="features">
 										<article>
 											<a href="#" class="image"><img src="images/github.jpg" alt="" /></a>
 											<h3 class="major">Github</h3>
-											<p>Vous pouvez retrouver quelques projets codés pour l'Université ou sur mon temps personnel.</p>										
-											<a href="https://github.com/nathanaelhoun" class="special">Voir la page</a>
+											<p>You can find some projects created for the college or on my own time.</p>										
+											<a href="https://github.com/nathanaelhoun" class="special">My Github account</a>
 										</article>
 										
 
@@ -115,21 +115,21 @@ require 'assets/php/functions.php';
 				<!-- Footer -->
 					<section id="footer">
 						<div class="inner">
-							<h2 class="major">Contactez-moi</h2>
-							<p>Si mon profil vous intéresse, si vous avez un conseil pour ce site, ou si vous souhaitez me contacter pour toute autre raison, sentez-vous libre d'utiliser le formulaire ci-dessous, il est prévu à cet effet.</p>
+							<h2 class="major">Say hello !</h2>
+							<p>If you are interested by my profile, or if you have an advice about this website, or if you want to contact me for any else reason, feel free to use the form below.</p>
 							<form method="post" action="assets/php/form.php">
 								<?php getFlash(); ?>	
 								<div class="fields">
 									<div class="field">
-										<label for="name">Nom</label>
+										<label for="name">Name</label>
 										<input type="text" name="name" id="name" />
 									</div>
 									<div class="field">
-										<label for="email">Adresse mail</label>
+										<label for="email">Email</label>
 										<input type="email" name="email" id="email" />
 									</div>
 									<div class="field">
-										<label for="subject">Sujet</label>
+										<label for="subject">Subject</label>
 										<input type="text" name="subject" id="subject">
 									</div>
 									<div class="field">
@@ -138,17 +138,17 @@ require 'assets/php/functions.php';
 									</div>
 								</div>
 								<ul class="actions">
-									<li><input type="submit" value="Envoyer le message" /></li>
+									<li><input type="submit" value="Send message" /></li>
 								</ul>
 							</form>
 							<ul class="contact">
 								<li class="fa-home">
-									Héricourt
+									Héricourt (France)
 								</li>
 								<li class="fa-linkedin"><a href="https://fr.linkedin.com/in/nathana%C3%ABl-houn">LinkedIn</a></li>
 							</ul>
 							<ul class="copyright">
-								<li>&copy; Nathanaël Houn</li><li>Page encore en développement - dernière mise à jour le 30/01/2019</li><li>Design : merci à <a href="http://html5up.net">HTML5 UP</a></li>
+								<li>&copy; Nathanaël Houn</li><li>Page in development - last update on 30/01/2019</li><li>Design : thanks to <a href="http://html5up.net">HTML5 UP</a></li>
 							</ul>
 						</div>
 					</section>
