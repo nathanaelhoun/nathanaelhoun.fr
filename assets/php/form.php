@@ -1,14 +1,19 @@
 <?php
 // Récupération des infos du formulaire, créé par Nathanaël Houn 
+require 'functions.php';
 
 // Récupération des variables
-$name = $_POST['name'];
-$email = $_POST['email'];
-$subject = $_POST['subject'];
-$message = $_POST['message'];
+$name = htmlentities($_POST['name']);
+$email = htmlentities($_POST['email']);
+$subject = htmlentities($_POST['subject']);
+$message = htmlentities($_POST['message']);
 
 
 // Forme de l'email à envoyer 
+$headers = 'MIME-Version: 1.0'."\n";
+$headers .= 'Content-type: text/html; charset=utf-8'."\n";
+$headers .= 'From : '.$email;
+
 $content = '
 	<html>
 		<head>
@@ -27,9 +32,13 @@ $content .= '</p></body></html>';
 
 
 //Envoi du mail
-mail('contact@nathanaelhoun.fr', 'Nouvel email depuis nathanaelhoun.fr : '. $email, $content, 'From : '.$email);
+if(mail('contact@nathanaelhoun.fr', 'Nouvel email depuis nathanaelhoun.fr : '. $email, $content, $headers)) {
+	setFlash("<i class=\"icon fa-envelope\"></i>&nbsp;<strong> C'est envoyé ! </strong>Merci pour votre message, j'y répondrai dans les meilleurs délais.", "success");
+} else {
+	setFlash("<i class=\"icon fa-exclamation-triangle\"></i>&nbsp;<strong>Attention ! </strong>Une erreur s'est produite lors de l'envoi du mail...", "alert");
+}
 
 //Redirection vers la page
-header('Location:' . $_SERVER['HTTP_REFERER'] . '#footer');
+header('Location:' . '../../' . '#footer');
 
 ?>

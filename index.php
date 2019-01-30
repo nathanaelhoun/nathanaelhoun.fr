@@ -1,4 +1,8 @@
-<!DOCTYPE HTML>
+<?php
+require 'assets/php/functions.php';
+?>
+
+
 <!--
 	Modifié par Nathanaël Houn pour son site personnel.
 	Version française
@@ -7,6 +11,9 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
+
+<!DOCTYPE HTML>
+
 
 <html>
 	<head>
@@ -41,7 +48,7 @@
 								<li><a href="#whoami">Qui suis-je ?</a></li>
 								<li><a href="#studies">Mon parcours</a></li>
 								<li><a href="#hobbies">Mes hobbies</a></li>
-								<li><a href="#projects">Mes projects</a></li>
+						<!--	<li><a href="#projects">Mes projects</a></li>  -->
 								<li><a href="#footer">Contactez-moi</a></li>
 							</ul>
 							<a href="#" class="close">Fermer</a>
@@ -84,7 +91,7 @@
 								</div>
 							</section>
 
-						<!-- Hobbies -->
+						<!-- Hobbies 
 							<section id="hobbies" class="wrapper spotlight style3">
 								<div class="inner">
 									<a href="#" class="image"><img src="images/cmi.jpg" alt="" /></a>
@@ -94,10 +101,10 @@
 									</div>
 								</div>
 							</section>
-
+						-->
 						
 						<!-- Projects -->
-							<section id="projects" class="wrapper alt style1">
+							<section id="projects" class="wrapper style1">
 								<div class="inner">
 									<h2 class="major">Mes projets</h2>
 									<section class="features">
@@ -108,9 +115,13 @@
 											<a href="https://github.com/nathanaelhoun" class="special">Voir la page</a>
 										</article>
 										
+
+
 									</section>
 									
+
 								</div>
+
 							</section>
 
 					</section>
@@ -121,6 +132,7 @@
 							<h2 class="major">Contactez-moi</h2>
 							<p>Si mon profil vous intéresse, si vous avez un conseil pour ce site, ou si vous souhaitez me contacter pour toute autre raison, sentez-vous libre d'utiliser le formulaire ci-dessous, il est prévu à cet effet.</p>
 							<form method="post" action="assets/php/form.php">
+								<?php getFlash(); ?><br/>	
 								<div class="fields">
 									<div class="field">
 										<label for="name">Nom</label>
@@ -147,12 +159,10 @@
 								<li class="fa-home">
 									Héricourt
 								</li>
-								<li class="fa-envelope"><a href="mailto:contact@nathanaelhoun.fr">contact@nathanaelhoun.fr</a></li>
-								<li class="fa-twitter"><a href="www.twitter.com/natteanaëlhoon">Twitter</a></li>
 								<li class="fa-linkedin"><a href="https://fr.linkedin.com/in/nathana%C3%ABl-houn">LinkedIn</a></li>
 							</ul>
 							<ul class="copyright">
-								<li>&copy; Nathanaël Houn</li><li>Page encore en développement - dernière mise à jour le 28/01/2019</li><li>Design : merci à <a href="http://html5up.net">HTML5 UP</a></li>
+								<li>&copy; Nathanaël Houn</li><li>Page encore en développement - dernière mise à jour le 30/01/2019</li><li>Design : merci à <a href="http://html5up.net">HTML5 UP</a></li>
 							</ul>
 						</div>
 					</section>
