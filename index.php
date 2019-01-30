@@ -132,7 +132,7 @@ require 'assets/php/functions.php';
 							<h2 class="major">Contactez-moi</h2>
 							<p>Si mon profil vous intéresse, si vous avez un conseil pour ce site, ou si vous souhaitez me contacter pour toute autre raison, sentez-vous libre d'utiliser le formulaire ci-dessous, il est prévu à cet effet.</p>
 							<form method="post" action="assets/php/form.php">
-								<?php getFlash(); ?><br/>	
+								<?php getFlash(); ?>	
 								<div class="fields">
 									<div class="field">
 										<label for="name">Nom</label>
