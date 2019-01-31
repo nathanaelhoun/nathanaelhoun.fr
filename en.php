@@ -58,7 +58,7 @@ require 'assets/php/functions.php';
 									<a href="" class="image"><img src="images/whoami.jpg" alt="" /></a>
 									<div class="content">
 										<h2 class="major">Who am I ?</h2>
-										<p>Interested by computer since my first days, it turns into a true passion since I'm 15 years old. I love trying some experiences with motherboards, GPUs and others components, causing sometimes some damages but always learning from my mistakes. I also discovered programing and HTML with the Internet, and I spend more time learning this things since 2018.</p>
+										<p>Already interested in computer since when I was younger, my interest turned into a true passion when I was about 15 years old. I loved experimenting with motherboards, GPUs and others components, sometimes causing some damage but always learning from my mistakes. I also discovered programing and HTML on the Internet, and I have spent a tremendous amount of time learning these things since 2018.</p>
 										<a href="#footer" class="special">Get in touch</a>
 									</div>
 								</div>
@@ -70,7 +70,7 @@ require 'assets/php/functions.php';
 									<a href="#" class="image"><img src="images/cmi.jpg" alt="" /></a>
 									<div class="content">
 										<h2 class="major">My curriculum</h2>
-										<p>After graduated my <i>baccalauréat</i> (French High School Diploma) with honours, I decided to study in Computer Science. I chose the <i>Cursus Master en Ingénieurie</i>, a french university curriculum at the <i>Franche-Comté</i>'s University, where I am currently studying in the first year.</p> 
+										<p>After graduated from the <i>baccalauréat</i> program (French High School Diploma) with honours, I decided to study in Computer Science. I chose the <i>Cursus Master en Ingénieurie</i>, a french university curriculum at the <i>Franche-Comté</i>'s University, where I am currently in my first year of the program.</p> 
 										<a href="http://figure-network.org/" class="special">Learn more about <i>CMI</i></a>
 									</div>
 								</div>
@@ -81,8 +81,8 @@ require 'assets/php/functions.php';
 								<div class="inner">
 									<a href="#" class="image"><img src="images/cmi.jpg" alt="" /></a>
 									<div class="content">
-										<h2 class="major">Mes hobbies</h2>
-										<p>À côté de mes études, j'apprends la guitare.</p>
+										<h2 class="major">My hobbies</h2>
+										<p>I also learn to play the guitare.</p>
 									</div>
 								</div>
 							</section>
@@ -97,8 +97,8 @@ require 'assets/php/functions.php';
 										<article>
 											<a href="#" class="image"><img src="images/github.jpg" alt="" /></a>
 											<h3 class="major">Github</h3>
-											<p>You can find some projects created for the college or on my own time.</p>										
-											<a href="https://github.com/nathanaelhoun" class="special">My Github account</a>
+											<p>Please feel free to browse through some of my projects either created for the college or on my free time.</p>										
+											<a href="https://github.com/nathanaelhoun" class="special">Check my Github account</a>
 										</article>
 										
 
@@ -116,7 +116,7 @@ require 'assets/php/functions.php';
 					<section id="footer">
 						<div class="inner">
 							<h2 class="major">Say hello !</h2>
-							<p>If you are interested by my profile, or if you have an advice about this website, or if you want to contact me for any else reason, feel free to use the form below.</p>
+							<p>If you are interested by my profile, or if you have any comments about this website, or if you want to contact me for any other reason, feel free to use the form below.</p>
 							<form method="post" action="assets/php/form.php">
 								<?php getFlash(); ?>	
 								<div class="fields">
@@ -148,7 +148,7 @@ require 'assets/php/functions.php';
 								<li class="fa-linkedin"><a href="https://fr.linkedin.com/in/nathana%C3%ABl-houn">LinkedIn</a></li>
 							</ul>
 							<ul class="copyright">
-								<li>&copy; Nathanaël Houn</li><li>Page in development - last update on 30/01/2019</li><li>Design : thanks to <a href="http://html5up.net">HTML5 UP</a></li>
+								<li>&copy; Nathanaël Houn</li><li>Page in development - last update on 31/01/2019</li><li>Design : thanks to <a href="http://html5up.net">HTML5 UP</a></li>
 							</ul>
 						</div>
 					</section>

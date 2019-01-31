@@ -148,7 +148,7 @@ require 'assets/php/functions.php';
 								<li class="fa-linkedin"><a href="https://fr.linkedin.com/in/nathana%C3%ABl-houn">LinkedIn</a></li>
 							</ul>
 							<ul class="copyright">
-								<li>&copy; Nathanaël Houn</li><li>Page encore en développement - dernière mise à jour le 30/01/2019</li><li>Design : merci à <a href="http://html5up.net">HTML5 UP</a></li>
+								<li>&copy; Nathanaël Houn</li><li>Page encore en développement - dernière mise à jour le 31/01/2019</li><li>Design : merci à <a href="http://html5up.net">HTML5 UP</a></li>
 							</ul>
 						</div>
 					</section>
