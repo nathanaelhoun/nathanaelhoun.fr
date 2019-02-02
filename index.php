@@ -18,12 +18,17 @@ require 'assets/php/functions.php';
 <html>
 	<head>
 		<title>Nathanaël Houn - Étudiant en Informatique</title>
+		<meta name="google-site-verification" content="poAxTBpoQFIHwIVDO9qTaDHRF-_bTdfn3vGup3KPf7g" />
 		<link rel="alternate" hreflang="en" href="https://www.nathanaelhoun.fr/en"/>
 		<link rel="alternate" hreflang="x-default" href="https://www.nathanaelhoun.fr/en"/>
+		<meta name="Description" content="Bienvenue chez Nathanaël Houn, passionné d'informatique depuis de nombreuses années, et étudiant en Licence Informatique CMI à Besançon." />
+		<meta name="Keyword" content="Nathanaël Houn, étudiant, informatique, Licence informatique, CMI, Cursus Master en Ingénieurie, passionné d'informatique" />
+		<meta name="Copyright" content="Nathanaël Houn"/>
+		<link rel="icon" sizes="32x32" href="images/favicon.ico" type="image/png">
+
+		<link rel="stylesheet" href="assets/css/main.css" />
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<meta name="google-site-verification" content="poAxTBpoQFIHwIVDO9qTaDHRF-_bTdfn3vGup3KPf7g" />
-		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -35,7 +40,7 @@ require 'assets/php/functions.php';
 					<header id="header" class="alt">
 						<h1><a href="index.html">Nathanaël Houn</a></h1>
 						<nav>
-							<a href="en"></li>EN</a>
+							<a href="en"><i class="fa fa-arrow-right"></i> EN</a>
 						</nav>
 					</header>
 
@@ -146,9 +151,10 @@ require 'assets/php/functions.php';
 									Héricourt
 								</li>
 								<li class="fa-linkedin"><a href="https://fr.linkedin.com/in/nathana%C3%ABl-houn">LinkedIn</a></li>
+								<li class="fa-file"><a href="Nathanaël%20Houn%20Étudiant%20en%20Informatique%20CV%20online%20version.pdf">Mon CV</a></li>
 							</ul>
 							<ul class="copyright">
-								<li>&copy; Nathanaël Houn</li><li>Page encore en développement - dernière mise à jour le 31/01/2019</li><li>Design : merci à <a href="http://html5up.net">HTML5 UP</a></li>
+								<li>&copy; Nathanaël Houn</li><li>Dernière mise à jour le 02/02/2019</li><li>Design : merci à <a href="http://html5up.net">HTML5 UP</a></li>
 							</ul>
 						</div>
 					</section>

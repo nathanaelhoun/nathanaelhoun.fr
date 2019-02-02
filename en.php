@@ -19,10 +19,15 @@ require 'assets/php/functions.php';
 	<head>
 		<title>Nathanaël Houn - Student in computer science</title>
 		<link rel="alternate" hreflang="fr" href="https://www.nathanaelhoun.fr"/>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<meta name="robots" content="noindex">
 		<meta name="google-site-verification" content="poAxTBpoQFIHwIVDO9qTaDHRF-_bTdfn3vGup3KPf7g" />
+		<meta name="Description" content="Welcome to Nathanaël Houn, computer science enthousiast since when I was younger, and student in Besançon (France)." />
+		<meta name="Keyword" content="Nathanaël Houn, student, computer science, Licence informatique, CMI, Cursus Master en Ingénieurie, computer enthousiast" />
+		<meta name="Copyright" content="Nathanaël Houn"/>
+		<link rel="icon" sizes="32x32" href="images/favicon.ico" type="image/png">
+		
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
@@ -35,7 +40,7 @@ require 'assets/php/functions.php';
 					<header id="header" class="alt">
 						<h1><a href="index.html">Nathanaël Houn</a></h1>
 						<nav>
-							<a href="index"></li>FR</a>
+							<a href="index"><i class="fa fa-arrow-right"></i> FR</a>
 						</nav>
 					</header>
 
@@ -146,9 +151,10 @@ require 'assets/php/functions.php';
 									Héricourt (France)
 								</li>
 								<li class="fa-linkedin"><a href="https://fr.linkedin.com/in/nathana%C3%ABl-houn">LinkedIn</a></li>
+								<li class="fa-file"><a href="Nathanaël%20Houn%20Étudiant%20en%20Informatique%20CV%20online%20version.pdf">My resume (french)</a></li>
 							</ul>
 							<ul class="copyright">
-								<li>&copy; Nathanaël Houn</li><li>Page in development - last update on 31/01/2019</li><li>Design : thanks to <a href="http://html5up.net">HTML5 UP</a></li>
+								<li>&copy; Nathanaël Houn</li><li>Last update on 02/02/2019</li><li>Design: thanks to <a href="http://html5up.net">HTML5 UP</a></li>
 							</ul>
 						</div>
 					</section>
