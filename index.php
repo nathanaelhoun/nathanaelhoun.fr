@@ -63,7 +63,7 @@ require 'assets/php/functions.php';
 									<a href="" class="image"><img src="images/whoami.jpg" alt="" /></a>
 									<div class="content">
 										<h2 class="major">Qui suis-je ?</h2>
-										<p>Intéressé par l'informatique depuis tout petit, j'en ai fait une véritable passion depuis mes 15 ans. J'ai fait beaucoup d'expériences hardware avec des cartes-mères et autres composants informatiques, causant parfois quelques dégâts mais apprenant de mes erreurs. J'ai aussi découvert, via Internet, la programmation et l'HTML, dans lesquels je passe plus de temps depuis 2018.</p>
+										<p>Intéressé par l'informatique depuis tout petit, j'en ai fait une véritable passion depuis mes 15 ans. J'ai fait beaucoup d'expériences hardware avec des cartes-mères et autres composants informatiques, causant parfois quelques dégâts mais apprenant de mes erreurs. J'ai aussi découvert, via Internet, la programmation et l'HTML, dans lesquels je passe plus de temps depuis 2018.</p>
 										<a href="#footer" class="special">Me contacter</a>
 									</div>
 								</div>
@@ -77,6 +77,7 @@ require 'assets/php/functions.php';
 										<h2 class="major">Mon parcours</h2>
 										<p>Après l'obtention de mon baccalauréat scientifique avec mention, j'ai décidé de m'orienter dans l'informatique. J'ai choisi le Cursus Master en Ingénieurie Informatique de l'Université de Franche-Comté, où j'étudie actuellement en première année de licence.</p>
 										<a href="http://reseau-figure.fr/quest-ce-que-le-cmi/" class="special">En savoir plus sur le CMI</a>
+										<a href="http://sciences.univ-fcomte.fr/pages/fr/menu3795/formations/cmi-informatique-besancon-17938-15943.html" class="special">La formation CMI Informatique à Besançon</a>
 									</div>
 								</div>
 							</section>
@@ -100,7 +101,14 @@ require 'assets/php/functions.php';
 									<h2 class="major">Mes projets</h2>
 									<section class="features">
 										<article>
-											<a href="#" class="image"><img src="images/github.jpg" alt="" /></a>
+											<a href="#projects" class="image"><img src="images/discordbot.jpg"></a>
+											<h3 class="major">Bot discord</h3>
+											<p>Un petit robot pour Discord, qui m'a permis de découvrir le JavaScript et Heroku. N'a pas de réelle utilité si ce n'est s'amuser et apprendre.</p>
+											<a href="https://github.com/nathanaelhoun/Discordbot" class="special">Voir le code sur Github</a>
+
+										</article>
+										<article>
+											<a href="#projects" class="image"><img src="images/github.jpg" alt="" /></a>
 											<h3 class="major">Github</h3>
 											<p>Vous pouvez retrouver quelques projets codés pour l'Université ou sur mon temps personnel.</p>										
 											<a href="https://github.com/nathanaelhoun" class="special">Voir la page</a>
@@ -154,7 +162,7 @@ require 'assets/php/functions.php';
 								<li class="fa-file"><a href="Nathanaël%20Houn%20Étudiant%20en%20Informatique%20CV%20online%20version.pdf">Mon CV</a></li>
 							</ul>
 							<ul class="copyright">
-								<li>&copy; Nathanaël Houn</li><li>Dernière mise à jour le 02/02/2019</li><li>Design : merci à <a href="http://html5up.net">HTML5 UP</a></li>
+								<li>&copy; Nathanaël Houn</li><li>Dernière mise à jour le 14/03/2019 - Journée de Pi</li><li>Design : merci à <a href="http://html5up.net">HTML5 UP</a></li>
 							</ul>
 						</div>
 					</section>

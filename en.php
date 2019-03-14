@@ -5,7 +5,7 @@ require 'assets/php/functions.php';
 
 <!--
 	Modifié par Nathanaël Houn pour son site personnel.
-	Version française
+	Version anglaise
 	google-site-verification: google1b4e0c68de9909ca.html
 	Solid State by HTML5 UP
 	html5up.net | @ajlkn
@@ -48,7 +48,6 @@ require 'assets/php/functions.php';
 				<!-- Banner -->
 					<section id="banner">
 						<div class="inner">
-							
 							<h2>Welcome to Nathanaël Houn</h2>
 							<p>Student and computer science enthousiast</a></p>
 						</div>
@@ -63,7 +62,7 @@ require 'assets/php/functions.php';
 									<a href="" class="image"><img src="images/whoami.jpg" alt="" /></a>
 									<div class="content">
 										<h2 class="major">Who am I ?</h2>
-										<p>Already interested in computer since when I was younger, my interest turned into a true passion when I was about 15 years old. I loved experimenting with motherboards, GPUs and others components, sometimes causing some damage but always learning from my mistakes. I also discovered programing and HTML on the Internet, and I have spent a tremendous amount of time learning these things since 2018.</p>
+										<p>Already interested in computer since when I was younger, my interest turned into a true passion when I was about 15 years old. I loved experimenting with motherboards, GPUs and others components, sometimes causing some damage but always learning from my mistakes. I also discovered programing and HTML on the Internet, and I have spent a tremendous amount of time learning these things since 2018.</p>
 										<a href="#footer" class="special">Get in touch</a>
 									</div>
 								</div>
@@ -75,8 +74,9 @@ require 'assets/php/functions.php';
 									<a href="#" class="image"><img src="images/cmi.jpg" alt="" /></a>
 									<div class="content">
 										<h2 class="major">My curriculum</h2>
-										<p>After graduated from the <i>baccalauréat</i> program (French High School Diploma) with honours, I decided to study in Computer Science. I chose the <i>Cursus Master en Ingénieurie</i>, a french university curriculum at the <i>Franche-Comté</i>'s University, where I am currently in my first year of the program.</p> 
-										<a href="http://figure-network.org/" class="special">Learn more about <i>CMI</i></a>
+										<p>After graduated from the <em>baccalauréat</em> program (French High School Diploma) with honours, I decided to study in Computer Science. I chose the <em>Cursus Master en Ingénieurie</em>, a french university curriculum at the <em>Franche-Comté</em>'s University, where I am currently in my first year of the program. The <em>CMI</em> is an equivalent for the Master of Engineering Program.</p> 
+										<a href="http://figure-network.org/" class="special">Learn more about <em>CMI</em></a>
+										<a href="http://sciences.univ-fcomte.fr/pages/fr/menu3795/formations/cmi-informatique-besancon-17938-15943.html" class="special">The Computer Sciences <em>CMI</em> curriculum in Besançon</a>
 									</div>
 								</div>
 							</section>
@@ -99,6 +99,13 @@ require 'assets/php/functions.php';
 								<div class="inner">
 									<h2 class="major">My projects</h2>
 									<section class="features">
+										<article>
+											<a href="#projects" class="image"><img src="images/discordbot.jpg"></a>
+											<h3 class="major">Discord bot</h3>
+											<p>A little Discord bot, which made me discover JavaScript and Heroku. Has no real usefulness beyond having fun and learning. </p>
+											<a href="https://github.com/nathanaelhoun/Discordbot" class="special">See the code on Github</a>
+
+										</article>
 										<article>
 											<a href="#" class="image"><img src="images/github.jpg" alt="" /></a>
 											<h3 class="major">Github</h3>
@@ -154,7 +161,7 @@ require 'assets/php/functions.php';
 								<li class="fa-file"><a href="Nathanaël%20Houn%20Étudiant%20en%20Informatique%20CV%20online%20version.pdf">My resume (french)</a></li>
 							</ul>
 							<ul class="copyright">
-								<li>&copy; Nathanaël Houn</li><li>Last update on 02/02/2019</li><li>Design: thanks to <a href="http://html5up.net">HTML5 UP</a></li>
+								<li>&copy; Nathanaël Houn</li><li>Last update on 14/03/2019 - 2019 Pi Day </li><li>Design: thanks to <a href="http://html5up.net">HTML5 UP</a></li>
 							</ul>
 						</div>
 					</section>
