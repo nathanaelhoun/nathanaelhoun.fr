@@ -22,7 +22,7 @@ require 'assets/php/functions.php';
 		<link rel="alternate" hreflang="en" href="https://www.nathanaelhoun.fr/en"/>
 		<link rel="alternate" hreflang="x-default" href="https://www.nathanaelhoun.fr/en"/>
 		<meta name="Description" content="Bienvenue chez Nathanaël Houn, passionné d'informatique depuis de nombreuses années, et étudiant en Licence Informatique CMI à Besançon." />
-		<meta name="Keyword" content="Nathanaël Houn, étudiant, informatique, Licence informatique, CMI, Cursus Master en Ingénieurie, passionné d'informatique" />
+		<meta name="Keyword" content="Nathanaël Houn, étudiant, informatique, Licence informatique, CMI, Cursus Master en Ingénierie, passionné d'informatique" />
 		<meta name="Copyright" content="Nathanaël Houn"/>
 		<link rel="icon" sizes="32x32" href="images/favicon.ico" type="image/png">
 
@@ -75,7 +75,7 @@ require 'assets/php/functions.php';
 									<a href="#" class="image"><img src="images/cmi.jpg" alt="" /></a>
 									<div class="content">
 										<h2 class="major">Mon parcours</h2>
-										<p>Après l'obtention de mon baccalauréat scientifique avec mention, j'ai décidé de m'orienter dans l'informatique. J'ai choisi le Cursus Master en Ingénieurie Informatique de l'Université de Franche-Comté, où j'étudie actuellement en première année de licence.</p>
+										<p>Après l'obtention de mon baccalauréat scientifique avec mention très bien, j'ai décidé de m'orienter dans l'informatique. J'ai choisi le Cursus Master en Ingénierie Informatique de l'Université de Franche-Comté, où j'étudie actuellement en première année de licence.</p>
 										<a href="http://reseau-figure.fr/quest-ce-que-le-cmi/" class="special">En savoir plus sur le CMI</a>
 										<a href="http://sciences.univ-fcomte.fr/pages/fr/menu3795/formations/cmi-informatique-besancon-17938-15943.html" class="special">La formation CMI Informatique à Besançon</a>
 									</div>

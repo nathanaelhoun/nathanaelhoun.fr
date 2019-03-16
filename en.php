@@ -22,7 +22,7 @@ require 'assets/php/functions.php';
 		<meta name="robots" content="noindex">
 		<meta name="google-site-verification" content="poAxTBpoQFIHwIVDO9qTaDHRF-_bTdfn3vGup3KPf7g" />
 		<meta name="Description" content="Welcome to Nathanaël Houn, computer science enthousiast since when I was younger, and student in Besançon (France)." />
-		<meta name="Keyword" content="Nathanaël Houn, student, computer science, Licence informatique, CMI, Cursus Master en Ingénieurie, computer enthousiast" />
+		<meta name="Keyword" content="Nathanaël Houn, student, computer science, Licence informatique, CMI, Cursus Master en Ingénierie, computer enthousiast" />
 		<meta name="Copyright" content="Nathanaël Houn"/>
 		<link rel="icon" sizes="32x32" href="images/favicon.ico" type="image/png">
 		
@@ -74,7 +74,7 @@ require 'assets/php/functions.php';
 									<a href="#" class="image"><img src="images/cmi.jpg" alt="" /></a>
 									<div class="content">
 										<h2 class="major">My curriculum</h2>
-										<p>After graduated from the <em>baccalauréat</em> program (French High School Diploma) with honours, I decided to study in Computer Science. I chose the <em>Cursus Master en Ingénieurie</em>, a french university curriculum at the <em>Franche-Comté</em>'s University, where I am currently in my first year of the program. The <em>CMI</em> is an equivalent for the Master of Engineering Program.</p> 
+										<p>After graduated from the <em>baccalauréat</em> program (French High School Diploma) with honours, I decided to study in Computer Science. I chose the <em>Cursus Master en Ingénierie</em>, a french university curriculum at the <em>Franche-Comté</em>'s University, where I am currently in my first year of the program. The <em>CMI</em> is an equivalent for the Master of Engineering Program.</p> 
 										<a href="http://figure-network.org/" class="special">Learn more about <em>CMI</em></a>
 										<a href="http://sciences.univ-fcomte.fr/pages/fr/menu3795/formations/cmi-informatique-besancon-17938-15943.html" class="special">The Computer Sciences <em>CMI</em> curriculum in Besançon</a>
 									</div>
