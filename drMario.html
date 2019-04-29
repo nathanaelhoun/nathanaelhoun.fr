@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!-- DrMario game in an HTML page -->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Dr Mario</title>
+        <!-- Javascript -->
+        <script src="scripts/DrMario.js"></script>
+        <!-- CSS -->
+        <link rel="stylesheet" href="assets/css/drMario.css">
+    </head>
+
+    <body onload="init()" style="background-color:#28282B">
+
+        <!-- Content-->
+        <div id="content">
+            <!-- Back to the menu-->
+            <p style="color: #0400F8";>
+                <a href="index.php">Retour au menu</a>
+            </p>
+            <!-- Canvas -->
+            <canvas id="cvs" width="600" height="600"></canvas>
+            
+            <p style="color:#FFFFFF">
+                Commandes :
+                <ul style="color:#FFFFFF">
+                    <li>Touches directionnelles : diriger le médicament qui chute</li>
+                    <li>Barre espace : pivoter le médicament</li>
+                </ul>
+            </p>
+            <p style="color:#FFFFFF">
+                Controls :
+                <ul style="color:#FFFFFF">
+                    <li>Arrows keys : move the medicine</li>
+                    <li>Spacebar : rotate the medicine</li>
+                </ul>
+            </p>
+        </div>
+
+    </body>
+
+
+</html>

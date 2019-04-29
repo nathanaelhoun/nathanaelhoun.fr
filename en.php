@@ -81,18 +81,7 @@ require 'assets/php/functions.php';
 								</div>
 							</section>
 
-						<!-- Hobbies
-							<section id="hobbies" class="wrapper spotlight style3">
-								<div class="inner">
-									<a href="#" class="image"><img src="images/cmi.jpg" alt="" /></a>
-									<div class="content">
-										<h2 class="major">My hobbies</h2>
-										<p>I also learn to play the guitare.</p>
-									</div>
-								</div>
-							</section>
 
-						-->
 						
 						<!-- Projects -->
 							<section id="projects" class="wrapper style1">
@@ -100,11 +89,19 @@ require 'assets/php/functions.php';
 									<h2 class="major">My projects</h2>
 									<section class="features">
 										<article>
+											<a href="#projects" class="image"><img src="images/drMario.jpg"></a>
+											<h3 class="major">Dr Mario</h3>
+											<p>Made on my own time, this is a simulation of the retro-game Dr Mario. 
+												<br/>Still in development
+												<br/>Mobile controls are not available for the moment.
+											</p>
+											<a href="drMario.html" class="special">Give it a try</a>
+										</article>
+										<article>
 											<a href="#projects" class="image"><img src="images/discordbot.jpg"></a>
 											<h3 class="major">Discord bot</h3>
 											<p>A little Discord bot, which made me discover JavaScript and Heroku. Has no real usefulness beyond having fun and learning. </p>
 											<a href="https://github.com/nathanaelhoun/Discordbot" class="special">See the code on Github</a>
-
 										</article>
 										<article>
 											<a href="#" class="image"><img src="images/github.jpg" alt="" /></a>
@@ -112,9 +109,6 @@ require 'assets/php/functions.php';
 											<p>Please feel free to browse through some of my projects either created for the college or on my free time.</p>										
 											<a href="https://github.com/nathanaelhoun" class="special">Check my Github account</a>
 										</article>
-										
-
-
 									</section>
 									
 
@@ -161,7 +155,7 @@ require 'assets/php/functions.php';
 								<li class="fa-file"><a href="Nathanaël%20Houn%20Étudiant%20en%20Informatique%20CV%20online%20version.pdf">My resume (french)</a></li>
 							</ul>
 							<ul class="copyright">
-								<li>&copy; Nathanaël Houn</li><li>Last update on 25/03/2019</li><li>Design: thanks to <a href="http://html5up.net">HTML5 UP</a></li>
+								<li>&copy; Nathanaël Houn</li><li>Last update on 29/04/2019</li><li>Design: thanks to <a href="http://html5up.net">HTML5 UP</a></li>
 							</ul>
 						</div>
 					</section>

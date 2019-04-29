@@ -40,7 +40,7 @@ require 'assets/php/functions.php';
 					<header id="header" class="alt">
 						<h1><a href="index.html">Nathanaël Houn</a></h1>
 						<nav>
-							<a href="en"><i class="fa fa-arrow-right"></i> EN</a>
+							<a href="en.php"><i class="fa fa-arrow-right"></i> EN</a>
 						</nav>
 					</header>
 
@@ -82,18 +82,6 @@ require 'assets/php/functions.php';
 								</div>
 							</section>
 
-						<!-- Hobbies
-							<section id="hobbies" class="wrapper spotlight style3">
-								<div class="inner">
-									<a href="#" class="image"><img src="images/cmi.jpg" alt="" /></a>
-									<div class="content">
-										<h2 class="major">Mes hobbies</h2>
-										<p>À côté de mes études, j'apprends la guitare.</p>
-									</div>
-								</div>
-							</section>
-
-						-->
 						
 						<!-- Projects -->
 							<section id="projects" class="wrapper style1">
@@ -101,11 +89,19 @@ require 'assets/php/functions.php';
 									<h2 class="major">Mes projets</h2>
 									<section class="features">
 										<article>
+											<a href="#projects" class="image"><img src="images/drMario.jpg"></a>
+											<h3 class="major">Dr Mario</h3>
+											<p>Réalisé sur mon temps personnel, une simulation du jeu rétro Dr Mario. 
+												<br/>Encore en développement, pardonnez l'interface sommaire.
+												<br/>Commandes mobiles non disponibles.
+											</p>
+											<a href="drMario.html" class="special">Essayer le jeu</a>
+										</article>
+										<article>
 											<a href="#projects" class="image"><img src="images/discordbot.jpg"></a>
 											<h3 class="major">Bot discord</h3>
 											<p>Un petit robot pour Discord, qui m'a permis de découvrir le JavaScript et Heroku. N'a pas de réelle utilité si ce n'est s'amuser et apprendre.</p>
 											<a href="https://github.com/nathanaelhoun/Discordbot" class="special">Voir le code sur Github</a>
-
 										</article>
 										<article>
 											<a href="#projects" class="image"><img src="images/github.jpg" alt="" /></a>
@@ -113,9 +109,6 @@ require 'assets/php/functions.php';
 											<p>Vous pouvez retrouver quelques projets codés pour l'Université ou sur mon temps personnel.</p>										
 											<a href="https://github.com/nathanaelhoun" class="special">Voir la page</a>
 										</article>
-										
-
-
 									</section>
 									
 
@@ -162,7 +155,7 @@ require 'assets/php/functions.php';
 								<li class="fa-file"><a href="Nathanaël%20Houn%20Étudiant%20en%20Informatique%20CV%20online%20version.pdf">Mon CV</a></li>
 							</ul>
 							<ul class="copyright">
-								<li>&copy; Nathanaël Houn</li><li>Dernière mise à jour le 25/03/2019</li><li>Design : merci à <a href="http://html5up.net">HTML5 UP</a></li>
+								<li>&copy; Nathanaël Houn</li><li>Dernière mise à jour le 29/04/2019</li><li>Design : merci à <a href="http://html5up.net">HTML5 UP</a></li>
 							</ul>
 						</div>
 					</section>
