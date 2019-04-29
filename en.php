@@ -81,7 +81,18 @@ require 'assets/php/functions.php';
 								</div>
 							</section>
 
+						<!-- Hobbies
+							<section id="hobbies" class="wrapper spotlight style3">
+								<div class="inner">
+									<a href="#" class="image"><img src="images/cmi.jpg" alt="" /></a>
+									<div class="content">
+										<h2 class="major">My hobbies</h2>
+										<p>I also learn to play the guitare.</p>
+									</div>
+								</div>
+							</section>
 
+						-->
 						
 						<!-- Projects -->
 							<section id="projects" class="wrapper style1">
