@@ -162,7 +162,7 @@ require 'assets/php/functions.php';
 								<li class="fa-file"><a href="Nathanaël%20Houn%20Étudiant%20en%20Informatique%20CV%20online%20version.pdf">Mon CV</a></li>
 							</ul>
 							<ul class="copyright">
-								<li>&copy; Nathanaël Houn</li><li>Dernière mise à jour le 14/03/2019 - Journée de Pi</li><li>Design : merci à <a href="http://html5up.net">HTML5 UP</a></li>
+								<li>&copy; Nathanaël Houn</li><li>Dernière mise à jour le 25/03/2019</li><li>Design : merci à <a href="http://html5up.net">HTML5 UP</a></li>
 							</ul>
 						</div>
 					</section>

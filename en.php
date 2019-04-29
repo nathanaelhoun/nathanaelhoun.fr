@@ -161,7 +161,7 @@ require 'assets/php/functions.php';
 								<li class="fa-file"><a href="Nathanaël%20Houn%20Étudiant%20en%20Informatique%20CV%20online%20version.pdf">My resume (french)</a></li>
 							</ul>
 							<ul class="copyright">
-								<li>&copy; Nathanaël Houn</li><li>Last update on 14/03/2019 - 2019 Pi Day </li><li>Design: thanks to <a href="http://html5up.net">HTML5 UP</a></li>
+								<li>&copy; Nathanaël Houn</li><li>Last update on 25/03/2019</li><li>Design: thanks to <a href="http://html5up.net">HTML5 UP</a></li>
 							</ul>
 						</div>
 					</section>
