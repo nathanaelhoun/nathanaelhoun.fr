@@ -27,6 +27,9 @@ if (!isset($shouldBeEmpty)) {
 	$content .= '</p>
 			<p><strong>Adresse mail :</strong> ' . $email;
 	$content .= '</p>
+			<p><strong>Champ devant être vide :</strong> ' . $shouldBeEmpty;
+
+	$content .= '</p>
 			<p><strong>Sujet :</strong> ' . $subject;
 	$content .= '</p>
 			<p><strong>Message :</strong> ' . $message;
