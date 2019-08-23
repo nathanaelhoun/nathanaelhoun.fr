@@ -191,7 +191,7 @@ require 'assets/php/functions.php';
                 </ul>
                 <ul class="copyright">
                     <li>&copy; Nathanaël Houn</li>
-                    <li>Last update on 29/04/2019</li>
+                    <li>Last update on 23/08/2019</li>
                     <li>Design: thanks to <a href="http://html5up.net">HTML5 UP</a></li>
                 </ul>
             </div>

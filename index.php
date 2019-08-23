@@ -165,7 +165,7 @@ require 'assets/php/functions.php';
                             <input type="email" name="email2" id="email2" />
                         </div>
                         <div style="display:none">
-                            <label for="email">Neu pa rends-plire </label>
+                            <label for="email">Neu pa rends-plire </label>23/08/2019
                             <input type="email" name="email" id="email" />
                         </div>
                         <div class="field">
@@ -192,7 +192,7 @@ require 'assets/php/functions.php';
                 </ul>
                 <ul class="copyright">
                     <li>&copy; Nathanaël Houn</li>
-                    <li>Dernière mise à jour le 29/04/2019</li>
+                    <li>Dernière mise à jour le 23/08/2019</li>
                     <li>Design : merci à <a href="http://html5up.net">HTML5 UP</a></li>
                 </ul>
             </div>
