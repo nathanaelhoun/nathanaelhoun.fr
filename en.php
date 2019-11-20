@@ -69,8 +69,7 @@ require 'assets/php/functions.php';
                         <h2 class="major">Who am I ?</h2>
                         <p>Already interested in computer since when I was younger, my interest turned into a true
                             passion when I was about 15 years old. I loved experimenting with motherboards, GPUs and
-                            others components, sometimes causing some damage but always learning from my mistakes. I
-                            also discovered programing and HTML on the Internet, and I have spent a tremendous amount of
+                            others components. I also discovered programing and development on the Internet and in my studies, and I have spent a tremendous amount of
                             time learning these things since 2018.</p>
                         <a href="#footer" class="special">Get in touch</a>
                     </div>
@@ -80,13 +79,13 @@ require 'assets/php/functions.php';
             <!-- studies -->
             <section id="studies" class="wrapper alt spotlight style2">
                 <div class="inner">
-                    <a href="#" class="image"><img src="images/cmi.jpg" alt="" /></a>
+                    <a href="#" class="image"><img src="images/cmi.webp" alt="Figure Network logo" /></a>
                     <div class="content">
                         <h2 class="major">My curriculum</h2>
                         <p>After graduated from the <em>baccalauréat</em> program (French High School Diploma) with
                             honours, I decided to study in Computer Science. I chose the <em>Cursus Master en
                                 Ingénierie</em>, a french university curriculum at the <em>Franche-Comté</em>'s
-                            University, where I am currently in my first year of the program. The <em>CMI</em> is an
+                            University, where I am currently in my second year of the program. The <em>CMI</em> is an
                             equivalent for the Master of Engineering Program.</p>
                         <a href="http://figure-network.org/" class="special">Learn more about <em>CMI</em></a>
                         <a href="http://sciences.univ-fcomte.fr/pages/fr/menu3795/formations/cmi-informatique-besancon-17938-15943.html"
@@ -95,26 +94,13 @@ require 'assets/php/functions.php';
                 </div>
             </section>
 
-            <!-- Hobbies
-							<section id="hobbies" class="wrapper spotlight style3">
-								<div class="inner">
-									<a href="#" class="image"><img src="images/cmi.jpg" alt="" /></a>
-									<div class="content">
-										<h2 class="major">My hobbies</h2>
-										<p>I also learn to play the guitare.</p>
-									</div>
-								</div>
-							</section>
-
-						-->
-
             <!-- Projects -->
             <section id="projects" class="wrapper style1">
                 <div class="inner">
                     <h2 class="major">My projects</h2>
                     <section class="features">
                         <article>
-                            <a href="#projects" class="image"><img src="images/drMario.jpg"></a>
+                            <a href="#projects" class="image"><img src="images/drMario.webp"></a>
                             <h3 class="major">Dr Mario</h3>
                             <p>Made on my own time, this is a simulation of the retro-game Dr Mario.
                                 <br />Still in development
@@ -123,15 +109,15 @@ require 'assets/php/functions.php';
                             <a href="drMario.html" class="special">Give it a try</a>
                         </article>
                         <article>
-                            <a href="#projects" class="image"><img src="images/discordbot.jpg"></a>
+                            <a href="#projects" class="image"><img src="images/discordbot.webp"></a>
                             <h3 class="major">Discord bot</h3>
-                            <p>A little Discord bot, which made me discover JavaScript and Heroku. Has no real
+                            <p>A Discord bot, which made me discover JavaScript and Heroku. Has no real
                                 usefulness beyond having fun and learning. </p>
                             <a href="https://github.com/nathanaelhoun/Discordbot" class="special">See the code on
                                 Github</a>
                         </article>
                         <article>
-                            <a href="#" class="image"><img src="images/github.jpg" alt="" /></a>
+                            <a href="#" class="image"><img src="images/github.webp" alt="" /></a>
                             <h3 class="major">Github</h3>
                             <p>Please feel free to browse through some of my projects either created for the college or
                                 on my free time.</p>
@@ -191,8 +177,8 @@ require 'assets/php/functions.php';
                 </ul>
                 <ul class="copyright">
                     <li>&copy; Nathanaël Houn</li>
-                    <li>Last update on 23/08/2019</li>
-                    <li>Design: thanks to <a href="http://html5up.net">HTML5 UP</a></li>
+                    <li>Last update on 20/11/2019</li>
+                    <li>Design: thanks to <a href="http://html5up.net">HTML5 UP</a>. Photo by <a href="https://unsplash.com/@ffstop">Fotis Fotopoulos</a> on Unsplash</li>
                 </ul>
             </div>
         </section>

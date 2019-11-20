@@ -1,129 +1,108 @@
-/*
- * Imported from :
- * Jeu Pang (Avril 2019)
- * script.js
- * 
- * Author: Fabian Devel, Nathanaël Houn, Valentin Perignon
- */
-
- /* Général */
- html, body {
-     margin: 0;
-     padding: 0;
- }
-
- body {
-    background-color: white;
-    font-family: sans-serif;
- }
-
- h1 {
-     font-size: 20px;
- }
-
-/* About body */
-#about-body {
-    background-image: url('assets/countryside.jpg');
-    background-attachment: fixed;
-    background-size: cover;
+body, html {
+  margin: 0;
+  padding: 0
 }
 
-/* Title */
+body {
+  background-color: #fff;
+  font-family: sans-serif
+}
+
+h1 {
+  font-size: 20px
+}
+
+#about-body {
+  background-image: url(assets/countryside.jpg);
+  background-attachment: fixed;
+  background-size: cover
+}
+
 #title {
-    padding: 20px 20px;
-    background-color: #4caf50;
+  padding: 20px 20px;
+  background-color: #4caf50
 }
 
 #title h1 {
-    margin: 0;
-    font-weight: lighter;
-    font-size: 20px;
-    color: #FFF;
+  margin: 0;
+  font-weight: lighter;
+  font-size: 20px;
+  color: #fff
 }
 
-/* Subtitle */
 .subtitle {
-    padding: 10px 20px;
-    background: #087f23;
+  padding: 10px 20px;
+  background: #087f23
 }
 
 .subtitle h2 {
-    margin: 0;
-    font-weight: 600;
-    font-size: 17px;
-    color: #FFF;
+  margin: 0;
+  font-weight: 600;
+  font-size: 17px;
+  color: #fff
 }
 
- /* Content */
 #content {
-    position: absolute;
-    top: 50%; left: 50%;
-    transform: translate(-50%, -50%);
-    width: 1080px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1080px
 }
 
-/* About */
 #about {
-    margin-top: 15px;
-    text-align: center;
+  margin-top: 15px;
+  text-align: center
 }
 
-/* Text content */
 .text_content {
-    padding: 5px 20px;
+  padding: 5px 20px
 }
 
-/* Cow lists */
 ul {
-    padding-left: 0px;
+  padding-left: 0
 }
 
 li {
-    display: list-item;
-    list-style: disc url('assets/cow.png') inside;
+  display: list-item;
+  list-style: disc url(assets/cow.png) inside
 }
 
-/* Canvas */
 #cvs {
-    border: 3px solid #000a12;
-    border-radius: 10px;
-    background-color: white;
+  border: 3px solid #000a12;
+  border-radius: 10px;
+  background-color: #fff
 }
 
-/* Hidden block */
 .hidden {
-    display: none;
+  display: none
 }
 
-/* Old buttons
- * source : https://codepen.io/shdwjk/pen/OWpbNN
- */
 .oldkey {
-    border-radius: 10px;
-    background: -webkit-radial-gradient( center, #FAF6F3,#FAF6F3, #D8C8B7);
-    border-style: solid;
-    border-width: 8px;
-    border-color: #E7DBD0 #DACABB #BFAF9D #F6EDE5;
-    display: inline-block;
-    min-width: 3em;
-    height: 3em;
-    line-height: 3em;
-    font-weight: bold;
-    font-family: sans-serif;
-    vertical-align: middle;
-    text-align: center;
-    color: #222;
-    margin: .1em;
-    cursor: pointer;
-
+  border-radius: 10px;
+  background: -webkit-radial-gradient(center, #faf6f3, #faf6f3, #d8c8b7);
+  border-style: solid;
+  border-width: 8px;
+  border-color: #e7dbd0 #dacabb #bfaf9d #f6ede5;
+  display: inline-block;
+  min-width: 3em;
+  height: 3em;
+  line-height: 3em;
+  font-weight: 700;
+  font-family: sans-serif;
+  vertical-align: middle;
+  text-align: center;
+  color: #222;
+  margin: .1em;
+  cursor: pointer
 }
 
 .oldkey:hover {
-    box-shadow: .1em .1em .3em .2em #666;
-    background: -webkit-radial-gradient( center,#FAF6F3,#FAF6F3, #BFAF9D);
+  box-shadow: .1em .1em .3em .2em #666;
+  background: -webkit-radial-gradient(center, #faf6f3, #faf6f3, #bfaf9d)
 }
 
 .oldkey span {
-    padding-left: 1em;
-    padding-right: 1em;
- }
+  padding-left: 1em;
+  padding-right: 1em
+}
