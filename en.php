@@ -106,13 +106,19 @@ require 'assets/php/functions.php';
                                 <br />Still in development
                                 <br />Mobile controls are not available for the moment.
                             </p>
-                            <a href="drMario.html" class="special">Give it a try</a>
+                            <a href="projects/drMario/index.html" class="special">Give it a try</a>
+                        </article>
+                        <article>
+                          <a href="#projects" class="image"><img src="images/pang.webp"></a>
+                          <h3 class="major">Pang</h3>
+                          <p>Developped during the <i>Software Engineering Initiation Project</i> of my 1<sup>st</sup> year.
+                            <br /> Play a man from <i>Franche-Comté</i> who wants to destroy all the balloons using objects from his dear region. Inspired from the retrogame Pang.</p>
+                          <a href="projects/pang/index.html" class="special">Have fun with Pang</a>
                         </article>
                         <article>
                             <a href="#projects" class="image"><img src="images/discordbot.webp"></a>
                             <h3 class="major">Discord bot</h3>
-                            <p>A Discord bot, which made me discover JavaScript and Heroku. Has no real
-                                usefulness beyond having fun and learning. </p>
+                            <p>A Discord bot, which made me discover JavaScript and Heroku. Interact with our class group. </p>
                             <a href="https://github.com/nathanaelhoun/Discordbot" class="special">See the code on
                                 Github</a>
                         </article>
