@@ -157,7 +157,7 @@ require 'assets/php/functions.php';
                         </div>
                         <div style="display:none">
                             <label for="email">Neu pa rends-plire </label>
-                            <input type="email" name="email" id="email" />
+                            <input type="email" name="email" id="email" value=""/>
                         </div>
                         <div class="field">
                             <label for="subject">Subject</label>

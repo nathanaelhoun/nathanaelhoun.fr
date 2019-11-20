@@ -1,5 +1,5 @@
 <?php
-//Récupération des infos du formulaire, créé par Nathanaël Houn 
+//Récupération des infos du formulaire, créé par Nathanaël Houn
 require 'functions.php';
 
 //Récupération des variables
@@ -9,9 +9,9 @@ $subject = htmlentities($_POST['subject']);
 $message = htmlentities($_POST['message']);
 $shouldBeEmpty = htmlentities($_POST["email"]);
 
-if (!isset($shouldBeEmpty)) {
+if (strcmp($shouldBeEmpty,"") == 0) {
 
-	//Forme de l'email à envoyer 
+	//Forme de l'email à envoyer
 	$headers = 'MIME-Version: 1.0' . "\n";
 	$headers .= 'Content-type: text/html; charset=utf-8' . "\n";
 	$headers .= 'From : ' . $email;
@@ -27,9 +27,6 @@ if (!isset($shouldBeEmpty)) {
 	$content .= '</p>
 			<p><strong>Adresse mail :</strong> ' . $email;
 	$content .= '</p>
-			<p><strong>Champ devant être vide :</strong> ' . $shouldBeEmpty;
-
-	$content .= '</p>
 			<p><strong>Sujet :</strong> ' . $subject;
 	$content .= '</p>
 			<p><strong>Message :</strong> ' . $message;
@@ -44,7 +41,7 @@ if (!isset($shouldBeEmpty)) {
 	}
 } else {
 	// Le formulaire vide a été rempli, probablement un robot
-	setFlash("<i class=\"icon fa-exclamation-triangle\"></i>&nbsp;<strong>Attention ! </strong>Une erreur s'est produite lors de l'envoi du mail... <br><br> ", "alert");
+	setFlash("<i class=\"icon fa-exclamation-triangle\"></i>&nbsp;<strong>Attention ! </strong>Une erreur s'est produite lors de l'envoi du mail... Vous semblez être un robot !  '".$shouldBeEmpty."' <br><br>", "alert");
 }
 //Redirection vers la page
 header('Location:' . '../../' . '#footer');
