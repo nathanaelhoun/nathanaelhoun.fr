@@ -1,0 +1,159 @@
+<!--
+	Modifié par Nathanaël Houn pour son site personnel.
+	Version française
+	google-site-verification: google1b4e0c68de9909ca.html
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+  <title>{{{page.title}}}</title>
+  <meta name="google-site-verification" content="poAxTBpoQFIHwIVDO9qTaDHRF-_bTdfn3vGup3KPf7g" />
+  <link rel="alternate" hreflang="en" href="https://www.nathanaelhoun.fr/en" />
+  <link rel="alternate" hreflang="x-default" href="https://www.nathanaelhoun.fr/en" />
+  <meta name="Description" content="{{{page.description}}}" />
+  <meta name="Keyword" content="{{{page.keyword}}}" />
+  <meta name="Copyright" content="Nathanaël Houn" />
+  <link rel="icon" sizes="32x32" href="images/favicon.ico" type="image/png">
+
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <noscript>
+    <link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+
+<body class="is-preload">
+
+  <!-- Page Wrapper -->
+  <div id="page-wrapper">
+
+    <!-- Header -->
+    <header id="header" class="alt">
+      <h1><a href="index.html">Nathanaël Houn</a></h1>
+      <nav>
+        <a href="{{{header.otherlanguagelink}}}"><i class="fa fa-arrow-right"></i> {{{header.otherlanguagetext}}}</a>
+      </nav>
+    </header>
+
+
+    <!-- Banner -->
+    <section id="banner">
+      <div class="inner">
+        <h2>{{{banner.welcome}}}</h2>
+        <p>{{{banner.description}}}</p>
+      </div>
+    </section>
+
+    <!-- Wrapper -->
+    <section id="wrapper">
+
+      <!-- WhoAmI -->
+      <section id="WhoAmI" class="wrapper spotlight style1">
+        <div class="inner">
+          <a href="" class="image"><img src="images/whoami.jpg" alt="" /></a>
+          <div class="content">
+            <h2 class="major">{{{content.whoami.title}}}</h2>
+            <p>{{{content.whoami.content}}}</p>
+            <a href="#footer" class="special">{{{content.whoami.link}}}</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- studies -->
+      <section id="studies" class="wrapper alt spotlight style2">
+        <div class="inner">
+          <a href="#" class="image"><img src="images/cmi.webp" alt="Logo Réseau Figure" /></a>
+          <div class="content">
+            <h2 class="major">{{{content.studies.title}}}</h2>
+            <p>{{{content.studies.content}}}</p>
+            <a href="http://reseau-figure.fr/quest-ce-que-le-cmi/" class="special">{{{content.studies.link1}}}</a>
+            <a href="http://sciences.univ-fcomte.fr/pages/fr/menu3795/formations/cmi-informatique-besancon-17938-15943.html" class="special">{{{content.studies.link2}}}</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="wrapper style1">
+        <div class="inner">
+          <h2 class="major">{{{content.projects.title}}}</h2>
+          <section class="features">
+
+            {{#content.projects.content}}
+              <article>
+                <a href="#projects" class="image"><img src="{{{imagesrc}}}" alt="{{{content.imagealt}}}"></a>
+                <h3 class="major">{{{title}}}</h3>
+                <p>{{{description}}}</p>
+                <a href="{{{link}}}" class="special">{{{linktext}}}</a>
+              </article>
+            {{/content.projects.content}}
+
+          </section>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <section id="footer">
+        <div class="inner">
+          <h2 class="major">{{{footer.form.title}}}</h2>
+          <p>{{{footer.form.description}}}</p>
+          <form method="post" action="assets/php/form.php">
+            <div class="fields">
+              <div class="field">
+                <label for="name">{{{footer.form.name}}}</label>
+                <input type="text" name="name" id="name" />
+              </div>
+              <div class="field">
+                <label for="email">{{{footer.form.email}}}</label>
+                <input type="email" name="email2" id="email2" />
+              </div>
+              <div style="display:none">
+                <label for="email">Neu pa rends-plire </label>
+                <input type="email" name="email" id="email" value="" />
+              </div>
+              <div class="field">
+                <label for="subject">{{{footer.form.subject}}}</label>
+                <input type="text" name="subject" id="subject">
+              </div>
+              <div class="field">
+                <label for="message">{{{footer.form.message}}}</label>
+                <textarea name="message" id="message" rows="4"></textarea>
+              </div>
+            </div>
+            <ul class="actions">
+              <li><input type="submit" value="{{{footer.form.validate}}}" /></li>
+            </ul>
+          </form>
+          <ul class="contact">
+            <li class="fa-home">
+              Héricourt, France
+            </li>
+            <li class="fa-linkedin"><a href="https://fr.linkedin.com/in/nathana%C3%ABl-houn">LinkedIn</a></li>
+            <li class="fa-file"><a href="Nathanaël%20Houn%20Étudiant%20en%20Informatique%20CV%20online%20version.pdf">{{{footer.cv}}}</a></li>
+          </ul>
+          <ul class="copyright">
+            <li>&copy; Nathanaël Houn</li>
+            <li>{{{footer.lastupdatetext}}} {{{footer.lastupdate}}}</li>
+            <li>{{{footer.design}}}</li>
+          </ul>
+        </div>
+      </section>
+
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.scrollex.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
