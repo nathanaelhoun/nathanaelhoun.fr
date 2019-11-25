@@ -1,0 +1,79 @@
+{
+  "page": {
+    "title": "Nathanaël Houn - Étudiant en Informatique",
+    "description": "Bienvenue chez Nathanaël Houn, étudiant en Licence Informatique CMI à Besançon.",
+    "keyword": "Nathanaël Houn, étudiant, informatique, Licence informatique, CMI, Cursus Master en Ingénierie, passionné d'informatique",
+  },
+  "header": {
+    "otherlanguagelink": "en.html",
+    "otherlanguagetext": "EN",
+  },
+  "banner": {
+    "welcome": "Bienvenue chez Nathanaël Houn",
+    "description": "Étudiant en informatique",
+  },
+  "content": {
+    "whoami": {
+      "title": "Qui suis-je ?",
+      "content": "Intéressé par l'informatique depuis tout petit, j'en ai fait une véritable passion depuis mes 15 ans. J'ai fait beaucoup d'expériences hardware avec des cartes-mères et autres composants informatiques. J'ai aussi découvert, via Internet puis dans ma formation, la programmation et le développement web, dans lesquels je passe plus de temps depuis 2018.",
+      "link": "Me contacter",
+    },
+    "studies": {
+      "title": "Mon parcours",
+      "content": "Après l'obtention de mon baccalauréat scientifique avec mention très bien, j'ai décidé de m'orienter dans l'informatique. J'ai choisi le Cursus Master en Ingénierie Informatique de l'Université de Franche-Comté, où j'étudie actuellement en deuxième année de licence.",
+      "link1": "En savoir plus sur le CMI",
+      "link2": "La formation CMI Informatique à Besançon",
+    },
+    "projects": {
+      "title": "Mes projets",
+      "content": [
+        {
+          "title": "Dr Mario",
+          "imagesrc": "images/drMario.webp",
+          "imagealt": "Capture d'écran de DrMario",
+          "description": "Réalisé sur mon temps personnel, une simulation du jeu rétro Dr Mario. Encore en développement, pardonnez l'interface sommaire. Commandes mobiles non disponibles.",
+          "link": "projects/drMario/index.html",
+          "linktext": "Essayer DrMario",
+        },
+        {
+          "title": "Pang",
+          "imagesrc": "images/pang.webp",
+          "imagealt": "Capture d'écran de Pang",
+          "description": "Développé dans le cadre du Projet d'Initiation à l'Ingénierie Logicielle de 1<sup>ère</sup> année de Licence. <br /> Incarnez un Franc-Comtois qui veut éliminer les ballons à l'aide des objets de sa région. Inspiré du rétro-jeu Pang.",
+          "link": "projects/pang/index.html",
+          "linktext": "Jouer à Pang",
+        },
+        {
+          "title": "Bot Discord",
+          "imagesrc": "images/discordbot.webp",
+          "imagealt": "Bot Discord",
+          "description": "Un robot pour Discord, qui m'a permis de découvrir le JavaScript et Heroku. Interagit avec notre groupe de classe.",
+          "link": "https://github.com/nathanaelhoun/Discordbot",
+          "linktext": "Voir le code sur Github",
+        },
+        {
+          "title": "Github",
+          "imagesrc": "images/github.webp",
+          "imagealt": "Logo de Github.com",
+          "description": "Vous pouvez retrouver quelques projets développés pour l'Université ou sur mon temps personnel.",
+          "link": "https://github.com/nathanaelhoun",
+          "linktext": "Voir la page",
+        }
+      ],
+    }
+  },
+  "footer": {
+    "form": {
+      "title": "Contactez-moi",
+      "description": "Si mon profil vous intéresse, si vous avez un conseil pour ce site, ou si vous souhaitez me contacter pour toute autre raison, sentez-vous libre d'utiliser le formulaire ci-dessous, il est prévu à cet effet.",
+      "name": "Nom",
+      "email": "Adresse mail",
+      "subject": "Sujet",
+      "message": "Message",
+      "validate": "Envoyer le message",
+    },
+    "cv": "Mon CV",
+    "lastupdatetext": "Dernière mise à jour le 25/11/2019",
+    "design": "Design : merci à <a href=\"http://html5up.net\">HTML5 UP</a>. Photo par <a href=\"https://unsplash.com/@ffstop\">Fotis Fotopoulos</a> sur Unsplash",
+  }
+}
