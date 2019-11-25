@@ -4,10 +4,10 @@ JSON = fr.json en.json
 all: $(TARGETS)
 
 fr:
-	mustache fr.json template.mustache > www/index.html
+	mustache fr.json template.mustache > docs/index.html
 
 en:
-	mustache en.json template.mustache > www/en.html
+	mustache en.json template.mustache > docs/en.html
 
 clean:
 	rm -f www/index.html
