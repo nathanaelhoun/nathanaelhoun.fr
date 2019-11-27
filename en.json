@@ -1,8 +1,23 @@
 {
   "page": {
     "title": "Nathanaël Houn - Student in computer science",
-    "description": "Welcome to Nathanaël Houn, computer science enthousiast since when I was younger, and student in Besançon (France).",
-    "keyword": "Nathanaël Houn, student, computer science, Licence informatique, CMI, Cursus Master en Ingénierie, computer enthousiast",
+    "meta": [
+      {
+        "name":"Description",
+        "content":"Welcome to Nathanaël Houn, computer science enthousiast since when I was younger, and student in Besançon (France).",
+      },
+      {
+        "name":"Keyword",
+        "content":"Nathanaël Houn, student, computer science, Licence informatique, CMI, Cursus Master en Ingénierie, computer enthousiast",
+      }
+    ],
+    "link": [
+      {
+        "rel":"alternate",
+        "hreflang":"fr",
+        "href":"https://nathanaelhoun.fr/",
+      },
+    ],
   },
   "header": {
     "otherlanguagelink": "index.html",

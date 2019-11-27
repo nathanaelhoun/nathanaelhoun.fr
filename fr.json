@@ -1,8 +1,28 @@
 {
   "page": {
     "title": "Nathanaël Houn - Étudiant en Informatique",
-    "description": "Bienvenue chez Nathanaël Houn, étudiant en Licence Informatique CMI à Besançon.",
-    "keyword": "Nathanaël Houn, étudiant, informatique, Licence informatique, CMI, Cursus Master en Ingénierie, passionné d'informatique",
+    "meta": [
+      {
+        "name":"Description",
+        "content":"Bienvenue chez Nathanaël Houn, étudiant en Licence Informatique CMI à Besançon.",
+      },
+      {
+        "name":"Keyword",
+        "content":"Nathanaël Houn, étudiant, informatique, Licence informatique, CMI, Cursus Master en Ingénierie, passionné d'informatique",
+      }
+    ],
+    "link": [
+      {
+        "rel":"alternate",
+        "hreflang":"en",
+        "href":"https://nathanaelhoun.fr/en",
+      },
+      {
+        "rel":"alternate",
+        "hreflang":"x-default",
+        "href":"https://nathanaelhoun.fr/en",
+      },
+    ],
   },
   "header": {
     "otherlanguagelink": "en.html",
