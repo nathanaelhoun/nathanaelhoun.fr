@@ -8,25 +8,26 @@
 
 <!DOCTYPE HTML>
 
-<html>
+<html lang="{{page.lang}}">
 
 <head>
-  <title>{{{page.title}}}</title>
+  <meta charset="utf-8" />
+  <title>{{page.title}}</title>
   {{#page.link}}
-  <link rel="{{{rel}}}" hreflang="{{{hreflang}}}" href="{{{href}}}" />
+    <link rel="{{rel}}" hreflang="{{hreflang}}" href="{{href}}" />
   {{/page.link}}
   <meta name="google-site-verification" content="poAxTBpoQFIHwIVDO9qTaDHRF-_bTdfn3vGup3KPf7g" />
   {{#page.meta}}
-  <meta name="{{{name}}}" content="{{{content}}}" />
+    <meta name="{{name}}" content="{{content}}" />
   {{/page.meta}}
 
   <meta name="Copyright" content="Nathanaël Houn" />
   <link rel="icon" sizes="32x32" href="images/favicon.ico" type="image/png">
 
   <link rel="stylesheet" href="assets/css/main.css" />
-  <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-  <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+  <noscript>
+    <link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 </head>
 
 <body class="is-preload">
@@ -38,7 +39,7 @@
     <header id="header" class="alt">
       <h1><a href="#">Nathanaël Houn</a></h1>
       <nav>
-        <a href="{{{header.otherlanguagelink}}}"><i class="fa fa-arrow-right"></i> {{{header.otherlanguagetext}}}</a>
+        <a href="{{header.otherlanguagelink}}"><i class="fa fa-arrow-right"></i>{{{header.otherlanguagetext}}}</a>
       </nav>
     </header>
 
@@ -52,7 +53,7 @@
     </section>
 
     <!-- Wrapper -->
-    <section id="wrapper">
+    <div id="wrapper">
 
       <!-- WhoAmI -->
       <section id="WhoAmI" class="wrapper spotlight style1">
@@ -83,18 +84,18 @@
       <section id="projects" class="wrapper style1">
         <div class="inner">
           <h2 class="major">{{{content.projects.title}}}</h2>
-          <section class="features">
+          <div class="features">
 
             {{#content.projects.content}}
-            <article>
-              <a href="#projects" class="image"><img src="{{{imagesrc}}}" alt="{{{imagealt}}}"></a>
-              <h3 class="major">{{{title}}}</h3>
-              <p>{{{description}}}</p>
-              <a href="{{{link}}}" class="special">{{{linktext}}}</a>
-            </article>
+              <article>
+                <a href="#projects" class="image"><img src="{{{imagesrc}}}" alt="{{{imagealt}}}"></a>
+                <h3 class="major">{{{title}}}</h3>
+                <p>{{{description}}}</p>
+                <a href="{{{link}}}" class="special">{{{linktext}}}</a>
+              </article>
             {{/content.projects.content}}
 
-          </section>
+          </div>
         </div>
       </section>
 
@@ -144,7 +145,7 @@
           </ul>
         </div>
       </section>
-    </section>
+    </div>
   </div>
 
   <!-- Scripts -->
