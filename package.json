@@ -1,0 +1,9 @@
+{
+  "name": "nathanaelhoun.fr",
+  "scripts": {
+    "build": "mustache src/fr.json src/template.mustache > docs/index.html; mustache src/en.json src/template.mustache > docs/en.html"
+  },
+  "dependencies": {
+    "mustache": "^4.0.1"
+  }
+}

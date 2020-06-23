@@ -1,63 +1,55 @@
 {
   "page": {
-    "lang":"en",
+    "lang": "en",
     "title": "Nathanaël Houn - Student in computer science",
     "meta": [
       {
-        "name":"Description",
-        "content":"Welcome to Nathanaël Houn, computer science enthousiast since when I was younger, and student in Besançon (France).",
+        "name": "Description",
+        "content": "Welcome to Nathanaël Houn, computer science student in Besançon (France)."
       },
       {
-        "name":"Keyword",
-        "content":"Nathanaël Houn, student, computer science, Licence informatique, CMI, Cursus Master en Ingénierie, computer enthousiast",
+        "name": "Keyword",
+        "content": "Nathanaël Houn, student, computer science, Licence informatique, CMI, Cursus Master en Ingénierie, computer enthousiast"
       }
     ],
     "link": [
       {
-        "rel":"alternate",
-        "hreflang":"fr",
-        "href":"https://nathanaelhoun.fr/",
-      },
-    ],
+        "rel": "alternate",
+        "hreflang": "fr",
+        "href": "https://nathanaelhoun.fr/"
+      }
+    ]
   },
   "header": {
     "otherlanguagelink": "index.html",
-    "otherlanguagetext": " FR",
+    "otherlanguagetext": " FR"
   },
   "banner": {
     "welcome": "Welcome to Nathanaël Houn",
-    "description": "Student and computer science enthousiast",
+    "description": "Developer student"
   },
   "content": {
     "whoami": {
       "title": "Who am I ?",
       "content": "Already interested in computer since when I was younger, my interest turned into a true passion when I was about 15 years old. I loved experimenting with motherboards, GPUs and others components. I also discovered programing and development on the Internet and in my studies, and I have spent a tremendous amount of time learning these things since 2018.",
-      "link": "Get in touch",
+      "link": "Get in touch"
     },
     "studies": {
       "title": "My curriculum",
       "content": "After graduated from the <em>baccalauréat</em> program (French High School Diploma) with honours, I decided to study in Computer Science. I chose the <em>Cursus Master en Ingénierie</em>, a french university curriculum at the <em>Franche-Comté</em>'s University, where I am currently in my second year of the program. The <em>CMI</em> is an equivalent for the Master of Engineering Program.",
       "link1": "Learn more about <em>CMI</em>",
-      "link2": "The Computer Sciences <em>CMI</em> curriculum in Besançon",
+      "link2": "The Computer Sciences <em>CMI</em> curriculum in Besançon"
     },
     "projects": {
       "title": "My projects",
       "content": [
-        {
-          "title": "Dr Mario",
-          "imagesrc": "images/drMario.webp",
-          "imagealt": "Dr Mario screenshot",
-          "description": "Made on my own time, this is a simulation of the retro-game Dr Mario. <br />Still in development <br />Mobile controls are not available for the moment.",
-          "link": "projects/drMario/index.html",
-          "linktext": "Give it a try",
-        },
         {
           "title": "Pang",
           "imagesrc": "images/pang.webp",
           "imagealt": "Pang game screenshot",
           "description": "Developped during the <i>Software Engineering Initiation Project</i> of my 1<sup>st</sup> year. <br /> Play a man from <i>Franche-Comté</i> who wants to destroy all the balloons using objects from his dear region. Inspired from the retrogame Pang.",
           "link": "projects/pang/index.html",
-          "linktext": "Have fun with Pang",
+          "linktext": "Have fun with Pang"
         },
         {
           "title": "Discord bot",
@@ -65,7 +57,7 @@
           "imagealt": "Discord Bot",
           "description": "A Discord bot, which made me discover JavaScript and Heroku. Interact with our class group. ",
           "link": "https://github.com/nathanaelhoun/Discordbot",
-          "linktext": "See the code on Github",
+          "linktext": "See the code on Github"
         },
         {
           "title": "My Github",
@@ -73,9 +65,9 @@
           "imagealt": "Github Logo",
           "description": "Please feel free to browse through some of my projects either created for the college or on my free time.",
           "link": "https://github.com/nathanaelhoun",
-          "linktext": "Check my Github account",
+          "linktext": "Check my Github account"
         }
-      ],
+      ]
     }
   },
   "footer": {
@@ -86,10 +78,10 @@
       "email": "Email",
       "subject": "Subject",
       "message": "Message",
-      "validate": "Send message",
+      "validate": "Send message"
     },
     "cv": "My resume (in french)",
     "lastupdatetext": "Last update on 25/11/2019",
-    "design": "Design: thanks to <a href=\"http://html5up.net\">HTML5 UP</a>. Photo by <a href=\"https://unsplash.com/@ffstop\">Fotis Fotopoulos</a> on Unsplash",
+    "design": "Design: thanks to <a href=\"http://html5up.net\">HTML5 UP</a>. Photo by <a href=\"https://unsplash.com/@ffstop\">Fotis Fotopoulos</a> on Unsplash"
   }
 }

@@ -1,13 +1,12 @@
 # nathanaelhoun.fr
 
-My personal website, built with Mustache.
+My [personal website](https://www.nathanaelhoun.fr), built with Mustache.
 
 ## Dependencies
-- [Mustache](https://mustache.github.io/)
+- [npm](https://www.npmjs.com/get-npm)
 
 ## Build instructions
-At project root, run mustache
+Use npm run:
 ```bash
-mustache fr.json template.mustache > docs/index.html
-mustache en.json template.mustache > docs/en.html
+npm run build
 ```
