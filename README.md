@@ -4,6 +4,7 @@ My [personal website](https://www.nathanaelhoun.fr), built with Mustache.
 
 ## Dependencies
 - [npm](https://www.npmjs.com/get-npm)
+- [minify.sh](https://github.com/nathanaelhoun/minify.sh)
 - Get other dependencies with `npm install`
 
 ## Build instructions

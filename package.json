@@ -1,15 +1,12 @@
 {
   "name": "nathanaelhoun.fr",
   "scripts": {
-    "mustache:fr":"mustache src/fr.json src/template.mustache > index.big.html" ,
-    "mustache:en": "mustache src/en.json src/template.mustache > en.big.html",
-    "minify:fr": "minify index.big.html > docs/index.html",
-    "minify:en": "minify en.big.html > docs/en.html",
-    "build": "(npm run mustache:fr & npm run mustache:en) && (npm run minify:fr & npm run minify:en)",
-    "clean": "rm *.big.html"
+    "mustache:fr":"mustache src/fr.json src/template.mustache > docs/index.html" ,
+    "mustache:en": "mustache src/en.json src/template.mustache > docs/en.html",
+    "minify": "./minify.sh docs/ docs_minified/ && rm -r docs && mv docs_minified docs",
+    "build": "(npm run mustache:fr & npm run mustache:en) && npm run minify"
   },
   "dependencies": {
-    "minify": "^5.1.1",
     "mustache": "^4.0.1"
   }
 }
