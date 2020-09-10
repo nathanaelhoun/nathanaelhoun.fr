@@ -14,4 +14,5 @@ tech:
     url: https://gohugo.io/
 ---
 
-** Insert content here **
+This personal website is generated with [Hugo](https://gohugo.io), and deployed with [Render](https://render.com).
+Theme used: [hugo-developer-portfolio](https://github.com/samrobbins85/hugo-developer-portfolio) par **@samrobbins85**

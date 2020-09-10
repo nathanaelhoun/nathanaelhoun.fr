@@ -37,7 +37,7 @@ params:
 
 menu:
   main:
-    - name: About
+    - name: About me
       url: about
     - name: Portfolio
       url: portfolio

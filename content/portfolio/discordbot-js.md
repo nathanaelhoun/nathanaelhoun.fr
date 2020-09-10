@@ -19,4 +19,17 @@ tech:
 
 {{<figure src="/images/portfolio/discordbot.webp" alt="Discordbot screenshot in action">}}
 
-** Insert content here**
+# Abdessamad the gentle Discord bot
+
+A bot built with JavaScript to interact with a Discord server. It was created to discover discordbots and practise JS.
+
+Abdessamad can answer to some messages in your conversations in order to make you laugh, but he also has some useful features.
+
+## Features
+
+- `!help` to see the help menu
+- `ping` to play ping-pong with me
+- `!activity [&show_history 'number'] / [&set 'activity']` to manage my activity
+- `!hw &add / &show / &rm` to manage the homeworks
+- `!int &add / &show / &rm` to manage the int points
+- `!teams ['number'] ['@role']` to make random teams with the role's members

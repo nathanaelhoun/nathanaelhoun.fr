@@ -19,4 +19,6 @@ tech:
 
 {{<figure src="https://github.com/nathanaelhoun/mattermost-plugin-broomer/raw/master/assets/screenshot.gif" alt="Plugin in action">}}
 
-** Insert content here **
+A [Mattermost](https://mattermost.com) plugin aiming to keep the channels clean, especially for log channels.
+
+Written in Golang using the Mattermost plugin framework.

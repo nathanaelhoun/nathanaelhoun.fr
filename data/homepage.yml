@@ -14,32 +14,6 @@ about:
   button:
     btnText: Find out more
     URL: "/about"
-skill:
-  enable: false
-  item:
-    - title: JavaScript
-      logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
-      description: Details coming soon, contact me if you want to know more
-experience:
-  enable: false
-  item:
-    - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793271/logos/logos_google_id6v9a.svg
-      title: init.g
-      company: Google
-      duration: November 2019
-hackathons:
-  enable: false
-  item:
-    - title: Hack Cambridge 2019
-      description: Climate change simulator
-      image: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793405/stickers/Hack_Cambridge_101_ozoq5d.png
-      url: none
-certifications:
-  enable: false
-  item:
-    - title: Microsoft Azure Fundamentals
-      image: https://res.cloudinary.com/samrobbins/image/upload/v1592501459/microsoft-certified-fundamentals-badge_cpcgyn.svg
-      url: https://www.youracclaim.com/badges/b4cf7a86-eb83-478e-bfd0-9f427c3474a0/public_url
 education:
   enable: true
   item:
@@ -47,10 +21,3 @@ education:
       year: 2018 - Present
       academy: Université de Franche-Comté (France)
       image: /images/cmi.webp
-leadership:
-  enable: true
-  item:
-    - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793280/logos/logos_yl_qozav6.webp
-      title: Young Leader
-      company: The Scout Association
-      duration: September 2014 - July 2018
