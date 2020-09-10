@@ -1,14 +1,21 @@
 # nathanaelhoun.fr ![Publish Website](https://github.com/nathanaelhoun/nathanaelhoun.fr/workflows/Publish%20Website/badge.svg)
 
-My [personal website](https://www.nathanaelhoun.fr), built with Mustache.
+My static [personal website](https://www.nathanaelhoun.fr), built with [Hugo](https://gohugo.io).
 
 ## Dependencies
-- [npm](https://www.npmjs.com/get-npm)
-- [minify.sh](https://github.com/nathanaelhoun/minify.sh)
-- Get other dependencies with `npm install`
+
+- [Hugo](https://gohugo.io/getting-started/installing/)
 
 ## Build instructions
-Use npm run:
+
+Preview your changes:
+
 ```bash
-npm run build
+hugo serve
+```
+
+Generate the static website in `./docs/`:
+
+```
+hugo --gc --minify
 ```
