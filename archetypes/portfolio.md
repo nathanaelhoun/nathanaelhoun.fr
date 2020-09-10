@@ -11,7 +11,7 @@ coders: []
 github: []
 image: /images/portfolio/
 tech:
-  - logo: /images/icons/
+  - logo: /icons/
     name: ""
     url: ""
 ---
