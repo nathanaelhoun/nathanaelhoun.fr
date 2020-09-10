@@ -1,11 +1,10 @@
-
 banner:
   title: Hi, I'm Nathanaël
 social:
   twitter: natteanaelhoon
-  linkedin: nathanaelhoun
   github: nathanaelhoun
   gitlab: nathanaelhoun
+  linkedin: nathanaelhoun
   facebook: ""
   instagram: ""
   gmail: ""
@@ -42,12 +41,12 @@ certifications:
       image: https://res.cloudinary.com/samrobbins/image/upload/v1592501459/microsoft-certified-fundamentals-badge_cpcgyn.svg
       url: https://www.youracclaim.com/badges/b4cf7a86-eb83-478e-bfd0-9f427c3474a0/public_url
 education:
-  enable: false
+  enable: true
   item:
-    - title: BSc Computer Science
+    - title: Computer Science Bachelor's Degree
       year: 2018 - Present
-      academy: Durham University
-      image: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793268/logos/logos_Durham_fc2sae.svg
+      academy: Université de Franche-Comté (France)
+      image: /images/cmi.webp
 leadership:
   enable: true
   item:
@@ -55,8 +54,3 @@ leadership:
       title: Young Leader
       company: The Scout Association
       duration: September 2014 - July 2018
-
-portfolio:
-  filter:
-    - label: Web Dev
-      value: web-dev

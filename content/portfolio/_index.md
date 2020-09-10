@@ -2,4 +2,8 @@
 date: "2020-09-09T20:59:34+06:00"
 description: Some of my work
 title: Portfolio
+
+resources:
+- name: discordbot-screenshot
+  src: images/discordbot.webp
 ---

@@ -1,19 +1,21 @@
 ---
 draft: true
 
-title: "{{ replace .Name "-" " " | title }}"
-type: "post"
+title: {{ replace .Name "-" " " | title }}
+description: Sample description
+type: post
 date: {{ .Date }}
 
 categories: []
 coders: []
-description: ""
 github: []
-image: ""
+image: /images/portfolio/
 tech:
-  logo: ""
-  name: ""
-  url: ""
+  - logo: /images/icons/
+    name: ""
+    url: ""
 ---
+
+{{<figure src="/images/portfolio/*" alt="Alternate texte">}}
 
 ** Insert content here **
