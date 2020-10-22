@@ -1,4 +1,1 @@
-node_modules/
-*.big.*
-minify.sh
-docs
+public

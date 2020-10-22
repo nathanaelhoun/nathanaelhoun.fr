@@ -1,9 +1,0 @@
-filter:
-  - label: Funny things
-    value: funny
-  - label: Games
-    value: game
-  - label: Utilities
-    value: utility
-  - label: Web Dev
-    value: web-dev

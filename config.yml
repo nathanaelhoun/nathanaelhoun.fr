@@ -4,42 +4,7 @@ title: Nathanaël Houn Personal Website
 languageCode: en
 defaultcontentlanguage: en
 
-theme: hugo-developer-portfolio
-
-paginate: 20
-canonifyurls: false
-publishDir: docs
-
-pygmentsstyle: bw
-pygmentscodefences: true
-pygmentscodefencesguesssyntax: true
-
-params:
-  home: Home
-  author: Nathanaël Houn
-  avatarurl: /images/nathanael.jpg
-  favicon_32: /images/favicon-32x32.ico
-
-  contact:
-    # TODO 
-    formAction: '' # Add your formspree URL here to get emails
-
-  footer:
-    email: 'contact[at]nathanaelhoun[dot]fr'
-    address: France
-
-  plugins:
-    css:
-      - URL: 'https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/css/uikit.min.css'
-    js:
-      - URL: 'https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit.min.js'
-      - URL: 'https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit-icons.min.js'
-
-menu:
-  main:
-    - name: About me
-      url: about
-    - name: Portfolio
-      url: portfolio
-    - name: Contact
-      URL: contact
+sitemap:
+  changefreq: "monthly"
+  priority: 0.5
+  filename: "sitemap.xml"
