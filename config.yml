@@ -1,8 +1,18 @@
-baseURL: https://nathanaelhoun-fr.onrender.com/
+baseURL: "https://nathanaelhoun-fr.onrender.com"
 title: Nathanaël Houn Personal Website
 
 languageCode: en
 defaultcontentlanguage: en
+
+theme: "developer-blog-hugo-theme"
+
+params:
+  author: Nathanaël Houn
+  title: Nathanaël Houn - Developer student
+  googleSiteVerification: poAxTBpoQFIHwIVDO9qTaDHRF-_bTdfn3vGup3KPf7g
+  description: Bienvenue chez Nathanaël Houn, étudiant en Licence Informatique CMI à Besançon.
+  keywords: Nathanaël Houn, étudiant, informatique, Licence informatique, CMI, Cursus Master en Ingénierie, passionné d&#39;informatique
+
 
 sitemap:
   changefreq: "monthly"

@@ -1,0 +1,16 @@
+banner:
+  title: Welcome! I'm Nathanaël
+social:
+  twitter: natteanaelhoon
+  github: nathanaelhoun
+  gitlab: nathanaelhoun
+  linkedin: nathanaelhoun
+  facebook: ""
+  instagram: ""
+  mail: ""
+about:
+  enable: true
+  content: Developer student & Open-Source enthousiast
+  button:
+    btnText: Find out more
+    URL: "/about"
