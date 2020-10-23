@@ -1,3 +1,4 @@
-# [submodule "themes/developer-blog-hugo-theme"]
-# 	path = themes/developer-blog-hugo-theme
-# 	url = https://github.com/nathanaelhoun/developer-blog-hugo-theme
+[submodule "themes/developer-blog-hugo-theme"]
+	path = themes/developer-blog-hugo-theme
+	url = https://github.com/nathanaelhoun/developer-blog-hugo-theme
+  branch = initial-version

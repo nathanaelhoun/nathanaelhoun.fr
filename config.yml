@@ -1,18 +1,74 @@
 baseURL: "https://nathanaelhoun-fr.onrender.com"
 title: Nathanaël Houn Personal Website
 
-languageCode: en
 defaultcontentlanguage: en
 
 theme: "developer-blog-hugo-theme"
 
 params:
-  author: Nathanaël Houn
-  title: Nathanaël Houn - Developer student
-  googleSiteVerification: poAxTBpoQFIHwIVDO9qTaDHRF-_bTdfn3vGup3KPf7g
-  description: Bienvenue chez Nathanaël Houn, étudiant en Licence Informatique CMI à Besançon.
-  keywords: Nathanaël Houn, étudiant, informatique, Licence informatique, CMI, Cursus Master en Ingénierie, passionné d&#39;informatique
+  meta:
+    author: Nathanaël Houn
+    title: Nathanaël Houn - Developer student
+    googleSiteVerification: poAxTBpoQFIHwIVDO9qTaDHRF-_bTdfn3vGup3KPf7g
+    description: Welcome on Nathanaël's website. I'm a developer student in Besançon (France), scout at hearth and an open-source enthousiast.
+    keywords: Nathanaël Houn, student, computer, development, Licence informatique, CMI, Cursus Master en Ingénierie, scout, éclaireur, éclaireurs évangéliques de france
+  customization:
+    homeTitle: Nathanaël Houn
+    footer: This website has entirely been made with ♥ by Nathanaël Houn
+    copyrightSince: 2019
+    hideColorSchemeToggle: false
+    hideCredits: false
 
+  social:
+    github: nathanaelhoun
+    gitlab: nathanaelhoun
+    linkedin: "nathanaelhoun"
+    medium: ""
+    twitter: ""
+    mastodon: ""
+
+menu:
+  home:
+    - identifier: about
+      name: About me
+      title: Learn more about me
+      url: #about
+      weight: -1000
+  main:
+    - identifier: portfolio
+      name: Portfolio
+      title: See my projects
+      url: /portfolio/
+      weight: 0
+    - identifier: blog
+      name: Blog
+      title: My blog
+      url: /blog/
+      weight: 100
+
+languages:
+  fr:
+    title: Français
+    menu:
+      home:
+        - identifier: about
+          name: À propos
+          title: Apprendre plus sur moi
+          url: #about
+          weight: -1000
+        - identifier: portfolio
+          name: Portfolio
+          title: Voir mes projets
+          url: /portfolio/
+          weight: 0
+        - identifier: blog
+          name: Blog
+          title: Mon blog
+          url: /blog/
+          weight: 100
+
+  en:
+    title: English
 
 sitemap:
   changefreq: "monthly"
