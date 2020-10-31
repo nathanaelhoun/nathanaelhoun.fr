@@ -31,7 +31,7 @@
   },
   "banner": {
     "welcome": "Bienvenue chez Nathanaël Houn",
-    "description": "Étudiant en informatique"
+    "description": "En recherche de stage : 06/04/21 — 25/06/21"
   },
   "content": {
     "whoami": {
@@ -41,7 +41,7 @@
     },
     "studies": {
       "title": "Mon parcours",
-      "content": "Après l'obtention de mon baccalauréat scientifique avec mention très bien, j'ai décidé de m'orienter dans l'informatique. J'ai choisi le Cursus Master en Ingénierie Informatique de l'Université de Franche-Comté, où j'étudie actuellement en deuxième année de licence.",
+      "content": "Après l'obtention de mon baccalauréat scientifique avec mention très bien, j'ai décidé de m'orienter dans l'informatique. J'ai choisi le Cursus Master en Ingénierie Informatique de l'Université de Franche-Comté, où j'étudie actuellement en troisième année de licence.",
       "link1": "En savoir plus sur le CMI",
       "link2": "La formation CMI Informatique à Besançon"
     },
@@ -63,6 +63,30 @@
           "description": "Un robot pour Discord, qui m'a permis de découvrir le JavaScript et Heroku. Interagit avec notre groupe de classe.",
           "link": "https://github.com/nathanaelhoun/Discordbot",
           "linktext": "Voir le code sur Github"
+        },
+        {
+          "title": "Site web de la R&Day 2020",
+          "imagesrc": "images/rnday-besancon.webp",
+          "imagealt": "Capture d'écran du site",
+          "description": "Site réalisé pour la R&Day 2020, un évènement organisé par les étudiants en CMI Informatique pour sensibiliser à la sécurité numérique.",
+          "link": "https://github.com/nathanaelhoun/rnday-besancon.fr",
+          "linktext": "Voir le code source du site"
+        },
+        {
+          "title": "Plugin d'intégration de CircleCI dans Mattermost",
+          "imagesrc": "images/plugin-circleci.webp",
+          "imagealt": "Plugin en fonctionnement",
+          "description": "Plugin Mattermost pour CircleCI SaaS. Permet de recevoir des notifications, lancer des <em>workflows</em> directement depuis Mattermost. Réalisé dans le cadre du <a href=\"https://github.com/mattermost/mattermost-server/issues/15355\">Mattermost Plugin Bounty Program 2020</a>",
+          "link": "https://github.com/nathanaelhoun/mattermost-plugin-circleci",
+          "linktext": "Voir le code source"
+        },
+        {
+          "title": "Version 2 de ce site web",
+          "imagesrc": "images/website.webp",
+          "imagealt": "Capture d'écran du site web",
+          "description": "Ce site web est en cours de re-création, avec Hugo. J'apprends aussi le SCSS.",
+          "link": "https://github.com/nathanaelhoun/nathanaelhoun.fr/pull/3",
+          "linktext": "Voir la progression"
         },
         {
           "title": "Github",

@@ -26,7 +26,7 @@
   },
   "banner": {
     "welcome": "Welcome to Nathanaël Houn",
-    "description": "Developer student"
+    "description": "Looking for an internship : 04/06/21 — 06/25/21"
   },
   "content": {
     "whoami": {
@@ -36,7 +36,7 @@
     },
     "studies": {
       "title": "My curriculum",
-      "content": "After graduated from the <em>baccalauréat</em> program (French High School Diploma) with honours, I decided to study in Computer Science. I chose the <em>Cursus Master en Ingénierie</em>, a french university curriculum at the <em>Franche-Comté</em>'s University, where I am currently in my second year of the program. The <em>CMI</em> is an equivalent for the Master of Engineering Program.",
+      "content": "After graduated from the <em>baccalauréat</em> program (French High School Diploma) with honours, I decided to study in Computer Science. I chose the <em>Cursus Master en Ingénierie</em>, a french university curriculum at the <em>Franche-Comté</em>'s University, where I am currently in my third year of the program. The <em>CMI</em> is an equivalent for the Master of Engineering Program.",
       "link1": "Learn more about <em>CMI</em>",
       "link2": "The Computer Sciences <em>CMI</em> curriculum in Besançon"
     },
@@ -58,6 +58,30 @@
           "description": "A Discord bot, which made me discover JavaScript and Heroku. Interact with our class group. ",
           "link": "https://github.com/nathanaelhoun/Discordbot",
           "linktext": "See the code on Github"
+        },
+        {
+          "title": "Website of the R&Day 2020",
+          "imagesrc": "images/rnday-besancon.webp",
+          "imagealt": "Screenshot of the website",
+          "description": "Website done for the R&Day 2020, an event made by the student of  the IT CMI to raise awareness among digital security.",
+          "link": "https://github.com/nathanaelhoun/rnday-besancon.fr",
+          "linktext": "See the source code of the website"
+        },
+        {
+          "title": "Plugin d'intégration de CircleCI dans Mattermost",
+          "imagesrc": "images/plugin-circleci.webp",
+          "imagealt": "Plugin en fonctionnement",
+          "description": "A Mattermost Plugin for CircleCI to interact with jobs, builds or workflows and receive notifications in Mattermost channels. Made for the <a href=\"https://github.com/mattermost/mattermost-server/issues/15355\">2020 Mattermost Plugin Bounty Program</a>",
+          "link": "https://github.com/nathanaelhoun/mattermost-plugin-circleci",
+          "linktext": "See the Github repo."
+        },
+        {
+          "title": "Version 2 of this website",
+          "imagesrc": "images/website.webp",
+          "imagealt": "Screenshot of the current website",
+          "description": "This website is under a full rewrite, using Hugo. I also learn SCSS.",
+          "link": "https://github.com/nathanaelhoun/nathanaelhoun.fr/pull/3",
+          "linktext": "View the Pull Request"
         },
         {
           "title": "My Github",
