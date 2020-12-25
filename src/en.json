@@ -44,6 +44,22 @@
       "title": "My projects",
       "content": [
         {
+          "title": "CircleCI Integration Plugin into Mattermost",
+          "imagesrc": "images/plugin-circleci.webp",
+          "imagealt": "The CircleCI Plugin for Mattermost in action",
+          "description": "A Mattermost Plugin for CircleCI to interact with jobs, builds or workflows and receive notifications in Mattermost channels. Winner of the <a href=\"https://github.com/mattermost/mattermost-server/issues/15355\">2020 Mattermost Plugin Bounty Program</a>",
+          "link": "https://github.com/nathanaelhoun/mattermost-plugin-circleci",
+          "linktext": "See the Github repo."
+        },
+        {
+          "title": "NDI 2020: Web application for surfers",
+          "imagesrc": "images/ndi-2020-bigeight.webp",
+          "imagealt": "Capture d'écran de l'application web",
+          "description": "Web application <i>SurfClean</i>, realised during the <i><a href=\"https://www.nuitdelinfo.com/\">Nuit de l'Info 2020</a></i> (Night Of Coding), with my team BigEight. Rewarded by two medals.",
+          "link": "https://ndi-2020-bigeight.nathanaelhoun.fr/",
+          "linktext": "Visiter l'application"
+        },
+        {
           "title": "Pang",
           "imagesrc": "images/pang.webp",
           "imagealt": "Pang game screenshot",
@@ -55,7 +71,7 @@
           "title": "Discord bot",
           "imagesrc": "images/discordbot.webp",
           "imagealt": "Discord Bot",
-          "description": "A Discord bot, which made me discover JavaScript and Heroku. Interact with our class group. ",
+          "description": "A Discord bot, which made me discover JavaScript and Heroku. Interact with our class group. Since rewritten in Python.",
           "link": "https://github.com/nathanaelhoun/Discordbot",
           "linktext": "See the code on Github"
         },
@@ -66,22 +82,6 @@
           "description": "Website done for the R&Day 2020, an event made by the student of  the IT CMI to raise awareness among digital security.",
           "link": "https://github.com/nathanaelhoun/rnday-besancon.fr",
           "linktext": "See the source code of the website"
-        },
-        {
-          "title": "Plugin d'intégration de CircleCI dans Mattermost",
-          "imagesrc": "images/plugin-circleci.webp",
-          "imagealt": "Plugin en fonctionnement",
-          "description": "A Mattermost Plugin for CircleCI to interact with jobs, builds or workflows and receive notifications in Mattermost channels. Made for the <a href=\"https://github.com/mattermost/mattermost-server/issues/15355\">2020 Mattermost Plugin Bounty Program</a>",
-          "link": "https://github.com/nathanaelhoun/mattermost-plugin-circleci",
-          "linktext": "See the Github repo."
-        },
-        {
-          "title": "Version 2 of this website",
-          "imagesrc": "images/website.webp",
-          "imagealt": "Screenshot of the current website",
-          "description": "This website is under a full rewrite, using Hugo. I also learn SCSS.",
-          "link": "https://github.com/nathanaelhoun/nathanaelhoun.fr/pull/3",
-          "linktext": "View the Pull Request"
         },
         {
           "title": "My Github",
@@ -104,8 +104,11 @@
       "message": "Message",
       "validate": "Send message"
     },
-    "cv": "My resume (in french)",
-    "lastupdatetext": "Last update on 10/31/2020",
+    "cv": {
+      "url": "CV_Nathanaël_HOUN_developer_student_online_version.pdf",
+      "label": "Download my resume"
+    },
+    "lastupdatetext": "Last update on 25/12/2020",
     "design": "Design: thanks to <a href=\"http://html5up.net\">HTML5 UP</a>. Photo by <a href=\"https://unsplash.com/@ffstop\">Fotis Fotopoulos</a> on Unsplash"
   }
 }

@@ -1,7 +1,7 @@
 {
   "page": {
     "lang": "fr",
-    "title": "Nathanaël Houn - Étudiant en Informatique",
+    "title": "Nathanaël Houn — Étudiant en Informatique",
     "meta": [
       {
         "name": "Description",
@@ -49,6 +49,22 @@
       "title": "Mes projets",
       "content": [
         {
+          "title": "Plugin d'intégration de CircleCI dans Mattermost",
+          "imagesrc": "images/plugin-circleci.webp",
+          "imagealt": "Plugin en fonctionnement",
+          "description": "Plugin Mattermost pour CircleCI SaaS. Permet de recevoir des notifications, lancer des <em>workflows</em> directement depuis Mattermost. Gagnant du <a href=\"https://github.com/mattermost/mattermost-server/issues/15355\">Mattermost Plugin Bounty Program 2020</a>",
+          "link": "https://github.com/nathanaelhoun/mattermost-plugin-circleci",
+          "linktext": "Voir le code source"
+        },
+        {
+          "title": "NDI 2020: Application pour les surfeurs",
+          "imagesrc": "images/ndi-2020-bigeight.webp",
+          "imagealt": "Capture d'écran de l'application web",
+          "description": "Application web <i>SurfClean</i> réalisée dans le cadre de la <a href=\"https://www.nuitdelinfo.com/\">Nuit de l'Info</a> 2020, avec mon équipe BigEight. Récompensée par deux médailles.",
+          "link": "https://ndi-2020-bigeight.nathanaelhoun.fr/",
+          "linktext": "Visiter l'application"
+        },
+        {
           "title": "Pang",
           "imagesrc": "images/pang.webp",
           "imagealt": "Capture d'écran de Pang",
@@ -60,7 +76,7 @@
           "title": "Bot Discord",
           "imagesrc": "images/discordbot.webp",
           "imagealt": "Bot Discord",
-          "description": "Un robot pour Discord, qui m'a permis de découvrir le JavaScript et Heroku. Interagit avec notre groupe de classe.",
+          "description": "Un robot pour Discord, qui m'a permis de découvrir le JavaScript et Heroku. Interagit avec notre groupe de classe. Réécrit depuis en Python.",
           "link": "https://github.com/nathanaelhoun/Discordbot",
           "linktext": "Voir le code sur Github"
         },
@@ -71,22 +87,6 @@
           "description": "Site réalisé pour la R&Day 2020, un évènement organisé par les étudiants en CMI Informatique pour sensibiliser à la sécurité numérique.",
           "link": "https://github.com/nathanaelhoun/rnday-besancon.fr",
           "linktext": "Voir le code source du site"
-        },
-        {
-          "title": "Plugin d'intégration de CircleCI dans Mattermost",
-          "imagesrc": "images/plugin-circleci.webp",
-          "imagealt": "Plugin en fonctionnement",
-          "description": "Plugin Mattermost pour CircleCI SaaS. Permet de recevoir des notifications, lancer des <em>workflows</em> directement depuis Mattermost. Réalisé dans le cadre du <a href=\"https://github.com/mattermost/mattermost-server/issues/15355\">Mattermost Plugin Bounty Program 2020</a>",
-          "link": "https://github.com/nathanaelhoun/mattermost-plugin-circleci",
-          "linktext": "Voir le code source"
-        },
-        {
-          "title": "Version 2 de ce site web",
-          "imagesrc": "images/website.webp",
-          "imagealt": "Capture d'écran du site web",
-          "description": "Ce site web est en cours de re-création, avec Hugo. J'apprends aussi le SCSS.",
-          "link": "https://github.com/nathanaelhoun/nathanaelhoun.fr/pull/3",
-          "linktext": "Voir la progression"
         },
         {
           "title": "Github",
@@ -109,8 +109,11 @@
       "message": "Message",
       "validate": "Envoyer le message"
     },
-    "cv": "Mon CV",
-    "lastupdatetext": "Dernière mise à jour le 31/10/2020",
+    "cv": {
+      "url": "CV_Nathanaël_HOUN_Étudiant_en_Informatique_version_web.pdf",
+      "label": "Télécharger mon CV"
+    },
+    "lastupdatetext": "Dernière mise à jour le 25/12/2020",
     "design": "Design : merci à <a href=\"http://html5up.net\">HTML5 UP</a>. Photo par <a href=\"https://unsplash.com/@ffstop\">Fotis Fotopoulos</a> sur Unsplash"
   }
 }
