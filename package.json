@@ -3,7 +3,7 @@
   "scripts": {
     "mustache:fr": "mustache src/fr.json src/template.mustache > docs/index.html",
     "mustache:en": "mustache src/en.json src/template.mustache > docs/en.html",
-    "minify": "./minify.sh docs/ docs_minified/ && rm -r docs && mv docs_minified docs",
+    "minify": "./minify.sh -v -t tag_files.txt docs/ docs_minified/ && rm -r docs && mv docs_minified docs",
     "build": "(npm run mustache:fr & npm run mustache:en) && npm run minify"
   },
   "dependencies": {
