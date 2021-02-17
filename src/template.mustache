@@ -26,7 +26,8 @@
 
   <link rel="stylesheet" href="assets/css/main.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-  <script async defer data-domain="nathanaelhoun.fr" src="https://analytics.nathanaelhoun.fr/js/plausible.js"></script>
+  <script async defer data-domain="nathanaelhoun.fr" src="https://analytics.nathanaelhoun.fr/js/plausible.outbound-links.js"></script>
+  <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
   <noscript>
     <link rel="stylesheet" href="assets/css/noscript.css" />
   </noscript>
@@ -138,7 +139,7 @@
               Héricourt, France
             </li>
             <li class="fa-linkedin"><a href="https://www.linkedin.com/in/nathanaelhoun/">LinkedIn</a></li>
-            <li class="fa-file"><a href="{{{footer.cv.url}}}">{{{footer.cv.label}}}</a></li>
+            <li class="fa-file"><a href="{{{footer.cv.url}}}" onclick="plausible('Resume view')">{{{footer.cv.label}}}</a></li>
           </ul>
           <ul class="copyright">
             <li>&copy; Nathanaël Houn</li>
