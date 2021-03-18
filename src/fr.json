@@ -49,6 +49,14 @@
       "title": "Mes projets",
       "content": [
         {
+          "title":"Guacamole: Application mobile",
+          "imagesrc":"images/guacamole.webp",
+          "imagealt":"Logo de l'application guacamole",
+          "description":"PWA (React + nodeJS) d'apprentissage réflexe pour les étudiants en pharmarcie. Projet annuel de L3, avec les formidables <a href='https://valentin-perignon.fr'>Valentin Perignon</a> et <a href='https://francois.poguet.com'>François Poguet</a>.",
+          "link":"https://github.com/ValFraNath/guacamole",
+          "linktext":"Découvrir le projet"
+        },
+        {
           "title": "Plugin d'intégration de CircleCI dans Mattermost",
           "imagesrc": "images/plugin-circleci.webp",
           "imagealt": "Plugin en fonctionnement",

@@ -25,12 +25,12 @@
     "otherlanguagetext": " FR"
   },
   "banner": {
-    "welcome": "Welcome to Nathanaël Houn",
-    "description": "Software developer student"
+    "welcome": "Welcome, I'm Nathanaël Houn",
+    "description": "A software developer student, passionate about Open-Source"
   },
   "content": {
     "whoami": {
-      "title": "Who am I ?",
+      "title": "Who am I?",
       "content": "Already interested in computer since when I was younger, my interest turned into a true passion when I was about 15 years old. I loved experimenting with motherboards, GPUs and others components. I also discovered programing and development on the Internet and in my studies, and I have spent a tremendous amount of time learning these things since 2018.",
       "link": "Get in touch"
     },
@@ -43,6 +43,14 @@
     "projects": {
       "title": "My projects",
       "content": [
+        {
+          "title":"Guacamole: Mobile app",
+          "imagesrc":"images/guacamole.webp",
+          "imagealt":"Guacamole app logo",
+          "description":"PWA (React + nodeJS) of reflex learning for pharmacist students in Besançon. Third year undergradute project, built with the wonderful <a href='https://valentin-perignon.fr'>Valentin Perignon</a> and <a href='https://francois.poguet.com'>François Poguet</a>.",
+          "link":"https://github.com/ValFraNath/guacamole",
+          "linktext":"Discover the project"
+        },
         {
           "title": "CircleCI Integration Plugin into Mattermost",
           "imagesrc": "images/plugin-circleci.webp",
