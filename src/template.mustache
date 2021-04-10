@@ -25,7 +25,7 @@
   <link rel="icon" sizes="32x32" href="images/favicon.ico" type="image/png">
 
   <link rel="stylesheet" href="assets/css/main.css" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <script async defer data-domain="nathanaelhoun.fr" src="https://analytics.nathanaelhoun.fr/js/plausible.outbound-links.js"></script>
   <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
   <noscript>
@@ -107,15 +107,15 @@
         <div class="inner">
           <h2 class="major">{{{footer.form.title}}}</h2>
           <p>{{{footer.form.description}}}</p>
-          <form method="post" action="assets/php/form.php">
+          <form id="contact-form" method="post" action="assets/php/form.php">
             <div class="fields">
               <div class="field">
                 <label for="name">{{{footer.form.name}}}</label>
-                <input type="text" name="name" id="name" />
+                <input type="text" name="name" id="name" required />
               </div>
               <div class="field">
                 <label for="email">{{{footer.form.email}}}</label>
-                <input type="email" name="email2" id="email2" />
+                <input type="email" name="email2" id="email2" required/>
               </div>
               <div style="display:none">
                 <label for="email">Neu pa rends-plire </label>
@@ -123,11 +123,11 @@
               </div>
               <div class="field">
                 <label for="subject">{{{footer.form.subject}}}</label>
-                <input type="text" name="subject" id="subject">
+                <input type="text" name="subject" id="subject" required />
               </div>
               <div class="field">
                 <label for="message">{{{footer.form.message}}}</label>
-                <textarea name="message" id="message" rows="4"></textarea>
+                <textarea name="message" id="message" rows="4" required></textarea>
               </div>
             </div>
             <ul class="actions">
@@ -158,7 +158,43 @@
   <script src="assets/js/breakpoints.min.js"></script>
   <script src="assets/js/util.js"></script>
   <script src="assets/js/main.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+     	const anchor = location.hash.slice(1);
 
+      if (anchor.startsWith("footer-")) {
+        const form = document.getElementById("contact-form");
+
+        const message =
+          anchor == "footer-message-sent"
+            ? '<p class="avertissement-flash avertissement-flash--success">{{{footer.form.message_success}}}</p>'
+            : '<p class="avertissement-flash avertissement-flash--alert">{{{footer.form.message_alert}}}</p>';
+
+        form.insertAdjacentHTML("afterbegin", message);
+
+        if (anchor != "footer-message-sent" && anchor.includes('?')) {
+          const informations = anchor
+            .split("?")[1]
+            .split("&")
+            .reduce((acc, el) => {
+              const param = el.split("=");
+              acc[param[0]] = param[1];
+              return acc;
+            }, {});
+
+          for (const name of ["name", "email2", "subject"]) {
+            document.querySelector(`input[name="${name}"]`).value =	informations[name];
+          }
+
+          for (const name of ["message"]) {
+            document.querySelector(`textarea[name="${name}"]`).innerHTML = informations[name];
+          }
+        }
+
+        setTimeout(() => document.getElementById("footer").scrollIntoView(), 200);
+      }
+    });
+  </script>
 </body>
 
 </html>

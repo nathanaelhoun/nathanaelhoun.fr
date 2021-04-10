@@ -115,13 +115,15 @@
       "email": "Adresse mail",
       "subject": "Sujet",
       "message": "Message",
-      "validate": "Envoyer le message"
+      "validate": "Envoyer le message",
+      "message_success": "<i class=\"icon fa-envelope\"></i>&nbsp;C\\'est envoyé ! Merci pour votre message, j\\'y répondrai dans les meilleurs délais.",
+      "message_alert": "<i class=\"icon fa-exclamation-triangle\"></i>&nbsp;Désolé ! Une erreur s\\'est produite lors de l\\'envoi du mail..."
     },
     "cv": {
       "url": "CV_Nathanaël_HOUN_Étudiant_en_Informatique_version_web.pdf",
       "label": "Télécharger mon CV"
     },
-    "lastupdatetext": "Dernière mise à jour le 15/02/2021",
+    "lastupdatetext": "Dernière mise à jour le 10/04/2021",
     "design": "Design : merci à <a href=\"http://html5up.net\">HTML5 UP</a>. Photo par <a href=\"https://unsplash.com/@ffstop\">Fotis Fotopoulos</a> sur Unsplash"
   }
 }
